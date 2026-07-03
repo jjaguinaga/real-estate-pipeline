@@ -1,0 +1,501 @@
+property_id,address,city,zip_code,property_type,listing_type,bedrooms,bathrooms,sqft,price,year_built,agent_id,listed_date,is_available
+1,587 Phillips Manor Suite 469,los angeles,57678,condo,RENT,0.0,0.0,4532 sqft,"$7,327.36",2030.0,45,2026-05-06,False
+2,805 Wiley Green,San Francisco,67941,single family,Sale,-1.0,1.4,4125,1422002.52,1850.0,24,13-06-2025,True
+3,22574 Nicole Coves,SF,64474,Condominium,for sale,4.0,4.0,4001 sqft,454183.48,1940.0,19,11/10/2024,False
+4,9648 Valerie Alley,Fresno,57889,TOWNHOUSE,Sale,-1.0,1.3,4475,"$1,122,855",2010.0,48,24-12-2024,1
+5,36518 Chapman Parkways,FRESNO,82862,Condominium,Rental,5.0,,678,"$5,556",1850.0,6,2026-03-01,True
+6,9292 Paul Rest Suite 514,sacramento,57694,Multi-Family,For Rent,,0.0,,7045.12,,28,08/25/2024,false
+7,0911 Jennifer Mission,Los Angeles,52792,SINGLE FAMILY,SALE,2.0,,4887 sq ft,"$551,320.50",1850.0,23,03-03-2025,True
+8,11456 Mcdowell Mountain,SAN DIEGO,07293,MULTI FAMILY,sale,3.0,1.1,4517,"$1,442,302.80",1996.0,38,25-04-2026,true
+9,842 Moore Via,sf,99195,Multi-Family,SALE,-1.0,,,2071584.58,,32,02/14/2025,False
+10,26351 Williams Crest Apt. 330,los angeles,74663,TOWNHOUSE,sale,0.0,,1388,1586723.84,,40,2024-10-13,true
+11,5991 Victoria Union Suite 984,San Francisco,18017,Single-Family,rent,-1.0,0.0,1344,3599.23,2023.0,10,2025-11-15,True
+12,1408 Emily Field,san francisco,61030,Single Family,Sale,,0.0,4005 sq ft,1161920.74,1967.0,48,02-02-2025,true
+13,87824 Mitchell Orchard Suite 954,SAN DIEGO,66132,CONDO,sale,5.0,0.0,,"$1,796,543",1906.0,25,04/16/2025,False
+14,54215 Fuentes Camp Suite 141,san diego,03099,Single-Family,Rental,4.0,0.0,3976 sq ft,7534.19,1947.0,3,25-02-2025,True
+15,876 Hayden Hill,los angeles,82119,CONDO,For Rent,,0.0,1793,7154.47,2030.0,42,13-08-2025,true
+16,87917 Corey Lock Suite 091,los angeles,13868,multi-family,RENT,0.0,,1823 sq ft,"$4,694",,29,10/04/2025,0
+17,082 Perkins Meadow,BAKERSFIELD,13536,studio,For Rent,,3.7,4277 sq ft,4925.77,,34,11/26/2024,True
+18,32501 Johnson Walks Suite 527,san francisco,39260,TOWNHOUSE,For Rent,,2.7,4310 sqft,"$3,896.16",1850.0,15,05/08/2025,1
+19,308 Diana Plaza,Long Beach,09075,townhouse,sale,6.0,,,"$1,973,381",2030.0,36,03-06-2025,True
+20,14490 Nathan Radial Apt. 476,SAN JOSE,36050,STUDIO,Rent,5.0,,,2796.33,1904.0,10,2025-11-29,True
+21,12928 Brian Plain Suite 568,Anaheim,95489,CONDO,SALE,0.0,0.0,3253 sq ft,1425886.6,1966.0,39,07/13/2025,False
+22,4390 Wheeler Freeway,LOS ANGELES,54956,MULTI FAMILY,for rent,-1.0,0.0,,5869.24,1850.0,7,2024-08-25,True
+23,9703 Michael Springs Apt. 865,SF,58015,condo,Sale,,0.0,4064,"$2,816,870",1850.0,38,2026-03-03,True
+24,336 Brandon Inlet Apt. 934,San Diego,19082,TOWNHOUSE,For Sale,,,2238 sqft,"$2,057,100",1977.0,40,11/24/2024,True
+25,06715 Elizabeth Squares Suite 301,FRESNO,94333,SINGLE FAMILY,Sale,1.0,1.2,1132 sq ft,"$798,590",1850.0,17,2024-12-22,True
+26,922 Nelson Overpass Suite 834,san diego,08012,Condominium,SALE,1.0,1.1,2375,"$1,379,943",2030.0,42,20-03-2025,false
+27,3533 Jessica Ports Apt. 094,SAN JOSE,89686,Town House,Rental,,1.9,1181,"$5,770",1850.0,26,06/22/2025,1
+28,,long beach,46038,SINGLE FAMILY,RENTAL,5.0,,651,"$4,657.36",1960.0,11,2024-10-30,0
+29,854 Andre Squares Apt. 213,LOS ANGELES,32342,CONDO,Sale,,2.3,1162 sqft,1112337.72,1850.0,42,2025-01-20,true
+30,,LOS ANGELES,59231,single family,For Sale,-1.0,1.8,1199,"$2,058,503.52",,47,2026-03-26,1
+31,54658 Castillo Hollow Apt. 130,san jose,78721,TOWNHOUSE,Rent,,1.8,2673,6945.92,2030.0,17,04/24/2025,False
+32,6588 Dougherty Hill Suite 769,oakland,59236,townhouse,for rent,-1.0,,1267 sqft,5993.99,2030.0,24,29-06-2025,True
+33,2358 Walker Drive Apt. 535,LONG BEACH,69857,Townhouse,Sale,,3.4,2716 sq ft,"$386,686",1947.0,8,14-01-2025,False
+34,5996 Jennifer Corners,SF,95994,Town House,sale,2.0,0.0,,"$373,176",,41,10/07/2024,False
+35,5006 Perez Courts,Los Angeles,05002,Condo,for rent,-1.0,0.0,676 sqft,"$4,994.40",2018.0,40,07-06-2025,0
+36,0188 Andrew Station,sf,59702,multi-family,RENTAL,-1.0,,630,"$6,460",1850.0,31,10/07/2025,True
+37,3490 Mcdonald Gardens Suite 345,San Diego,95810,TOWNHOUSE,for sale,3.0,1.2,3765 sqft,"$658,594.89",2030.0,43,05/09/2025,False
+38,4948 Stephanie Row Apt. 554,anaheim,66958,townhouse,for sale,,3.8,4828 sq ft,"$1,654,057",1850.0,33,07/30/2024,true
+39,32997 Sara Throughway Suite 210,Los Angeles,17833,Single Family,sale,-1.0,,1878,2737752.58,1969.0,1,08/07/2025,false
+40,766 Jackson Alley,SAN DIEGO,90185,single family,RENTAL,-1.0,2.6,4552 sq ft,2775.59,,9,26-04-2025,true
+41,1735 Davis Manor,SF,03996,Multi-Family,for rent,-1.0,3.0,,3794.51,1921.0,29,07/03/2024,False
+42,9666 Richard Walks Suite 564,san diego,25121,STUDIO,RENTAL,0.0,0.0,4188 sqft,"$5,006",2030.0,11,01-05-2026,True
+43,6178 Ramirez Port,FRESNO,17183,Townhouse,For Sale,3.0,2.1,1388,"$743,308.20",2023.0,3,19-02-2026,true
+44,4179 Louis Vista,Anaheim,62271,Town House,Rent,-1.0,3.7,2167,"$5,216",1966.0,44,2026-04-25,0
+45,6625 Tamara Pass,Fresno,24618,Multi-Family,for sale,3.0,0.0,1639 sq ft,"$2,598,928",2030.0,37,04/05/2025,False
+46,,oakland,76729,TOWNHOUSE,sale,6.0,0.0,1184,595624.19,2030.0,25,24-09-2024,0
+47,7636 Baker Parkway Apt. 446,Fresno,56956,studio,SALE,,2.8,1203 sq ft,1560571.8,1974.0,41,2026-01-29,true
+48,66409 Johnson Roads,los angeles,39598,STUDIO,sale,,1.8,2080 sq ft,2797472.52,2030.0,2,21-06-2026,False
+49,68386 Johnson Burg,OAKLAND,58173,Condo,rent,3.0,1.1,1772,3210.84,1938.0,8,05/01/2025,True
+50,601 Smith Street,la,97773,studio,Sale,4.0,0.0,4318,"$1,302,042.05",,10,27-09-2025,False
+51,134 Erik Station Apt. 210,la,02033,studio,Rental,,2.6,,2983.36,1976.0,27,2025-09-18,true
+52,2324 Timothy Well,anaheim,07342,multi-family,for rent,0.0,2.1,4946 sq ft,6728.04,1850.0,38,2025-07-09,false
+53,,Bakersfield,41551,Condominium,Sale,4.0,0.0,2380,726317.07,1990.0,43,06-01-2026,False
+54,271 Mcpherson Row Suite 476,SACRAMENTO,95062,SINGLE FAMILY,SALE,,2.8,4069,"$2,232,891",2019.0,49,07/31/2024,True
+55,656 Johnson Stravenue Suite 557,OAKLAND,98192,TOWNHOUSE,for sale,5.0,3.5,4841,"$2,385,710",2030.0,48,04/24/2026,true
+56,255 Heather Forge,BAKERSFIELD,19276,STUDIO,Rental,2.0,3.1,1225 sq ft,6263.59,,49,18-03-2026,0
+57,,SAN DIEGO,05984,Town House,for sale,,2.4,,2692663.56,,42,12/15/2025,True
+58,6321 Gary Ridges Suite 574,LONG BEACH,78827,Town House,For Rent,3.0,,4459,"$7,570.84",1850.0,34,04-03-2026,False
+59,99808 Christopher Forest,sacramento,67034,Condo,Sale,5.0,1.8,,2740714.33,1991.0,6,02-12-2025,true
+60,2105 Sullivan Passage Apt. 147,Fresno,68087,single family,rent,,,1461,3661.87,2030.0,41,09/17/2025,True
+61,169 Johnson Pike,BAKERSFIELD,49515,Condominium,for sale,,3.1,2648,"$1,948,218",,19,13-11-2024,False
+62,529 Richard Vista Suite 855,los angeles,19168,Single-Family,Rent,5.0,2.7,2334 sqft,3529.28,1970.0,41,06/28/2025,true
+63,16901 Julia Overpass Apt. 032,SF,03183,Single Family,sale,5.0,0.0,1806,1783106.55,1957.0,31,2024-12-16,False
+64,30994 Hall Center Apt. 002,Bakersfield,88395,single family,Rental,-1.0,,3805 sqft,4043.72,1850.0,21,04/24/2025,True
+65,7750 Gibson Burgs Apt. 230,Sacramento,62585,Single Family,rent,,1.9,,"$3,932.19",1944.0,32,29-07-2025,true
+66,7949 Kyle Hill,fresno,17999,studio,rent,-1.0,3.8,3063,"$7,358.17",,8,08/27/2024,True
+67,8946 Michelle Shoals,long beach,59836,Studio,RENT,-1.0,0.0,2526,"$2,534.73",2030.0,50,08/19/2025,True
+68,1851 Alexis Tunnel,Anaheim,20168,SINGLE FAMILY,sale,2.0,2.1,4989,"$2,018,193",1903.0,29,08/15/2025,true
+69,06718 Paul Plains Apt. 794,SACRAMENTO,86571,Multi-Family,Sale,-1.0,3.2,,595116.21,1920.0,12,10-08-2025,False
+70,79129 Santos Extensions,LOS ANGELES,05482,Single Family,for rent,6.0,1.5,2593,"$6,469.88",,21,09/15/2025,False
+71,50506 Crystal Shore,Oakland,02760,STUDIO,sale,,1.9,,1575716.02,2030.0,19,2025-08-24,1
+72,,Oakland,01253,townhouse,RENTAL,,0.0,3376 sqft,"$5,874.40",2009.0,47,01/21/2025,True
+73,86504 Owens Mews Suite 914,Bakersfield,69301,Condominium,sale,,0.0,4685,2139027.16,,2,19-10-2024,false
+74,128 John Vista,SAN FRANCISCO,97269,condo,For Rent,3.0,0.0,3717 sqft,6019.7,,39,2025-04-19,False
+75,7586 Johnson Square,LONG BEACH,29689,townhouse,Sale,1.0,2.1,3715,"$1,940,504",2015.0,32,2025-08-04,1
+76,38018 Morris Grove,San Diego,46891,single family,RENT,0.0,3.2,460,"$5,376.29",1850.0,8,2025-05-26,True
+77,2482 Thomas Fall,FRESNO,48746,townhouse,For Sale,1.0,0.0,3251,"$1,240,879",,40,04-12-2025,1
+78,269 Carolyn Row,Anaheim,90881,Single-Family,Sale,1.0,3.4,,"$1,965,820",1850.0,7,06/26/2025,true
+79,89379 Smith Mills,San Francisco,75598,Single-Family,for sale,2.0,,1629,"$1,769,682",1989.0,1,14-12-2024,true
+80,370 Callahan Points Suite 226,SAN JOSE,76463,Studio,Sale,,0.0,1956,2271017.21,1850.0,43,16-08-2024,False
+81,55597 Callahan Trail,san diego,63286,multi-family,for rent,,2.9,500 sq ft,6802.23,,16,16-07-2025,false
+82,2126 Johnson Oval,LOS ANGELES,84144,Single Family,for sale,,2.0,2918,1535161.04,1956.0,20,27-07-2024,true
+83,4172 Ashley Lane,san francisco,19323,single family,sale,,,3464 sq ft,1739416.03,1988.0,35,05/02/2025,true
+84,856 Coffey Roads Apt. 393,San Francisco,25731,condo,For Rent,,0.0,4077,6406.65,1850.0,34,21-03-2025,true
+85,94212 Nancy Spurs,Long Beach,77024,Condo,Rental,5.0,,401,"$2,395.50",,39,07-09-2025,false
+86,9323 Donald Prairie,anaheim,26491,MULTI FAMILY,Sale,,3.6,,833260.69,2012.0,26,18-07-2025,True
+87,6564 Harris Crossroad Suite 713,Anaheim,62419,SINGLE FAMILY,For Sale,,,4650 sq ft,"$1,309,397.63",1915.0,27,09/23/2025,True
+88,71634 Reeves Well,Bakersfield,93204,Studio,Rental,-1.0,3.9,960,"$1,436.95",2030.0,47,21-03-2025,False
+89,221 Steven Ridges,long beach,52227,TOWNHOUSE,Rental,5.0,0.0,1177 sqft,"$6,481",1917.0,11,2024-12-08,false
+90,1913 Stevens Ports Suite 193,san diego,27713,townhouse,for rent,1.0,1.4,,"$2,644",2030.0,45,09/16/2024,1
+91,76523 Harrison Isle Apt. 310,FRESNO,15196,Multi-Family,For Sale,,1.2,4269 sqft,"$1,662,490.24",1960.0,27,2025-08-10,True
+92,97467 Vincent Freeway,Oakland,48388,CONDO,RENTAL,6.0,3.2,1073,3638.12,1950.0,44,09/14/2024,0
+93,271 Evans Ferry Apt. 944,SF,60329,Single-Family,For Sale,-1.0,0.0,1381 sqft,1880217.99,1962.0,29,09/07/2024,False
+94,67285 Tim Forest Apt. 445,SAN DIEGO,88753,condo,RENTAL,2.0,3.7,629 sqft,4495.96,1850.0,26,01/24/2026,true
+95,4447 Michael Vista Apt. 927,San Jose,34623,Town House,SALE,5.0,0.0,1919,"$1,932,147",1933.0,9,05/05/2026,true
+96,92254 Nguyen Mews,Bakersfield,95576,multi-family,sale,5.0,0.0,2524,1657785.64,1850.0,32,2025-01-22,False
+97,184 Michael Wall,San Diego,19882,Condo,rent,5.0,1.5,3051 sq ft,"$7,731",1850.0,1,2025-12-27,False
+98,7077 Garcia Prairie,FRESNO,40288,SINGLE FAMILY,Rent,5.0,,,"$2,071",1926.0,49,02-12-2024,1
+99,668 Tiffany Ways,long beach,80671,STUDIO,SALE,-1.0,1.5,2333,2937653.66,1850.0,12,16-10-2025,True
+100,242 Victor Lights,ANAHEIM,72385,Condominium,for sale,,,4008,2363902.42,1999.0,37,14-06-2026,0
+101,4298 Harrison Heights Suite 073,los angeles,15149,Multi-Family,RENT,-1.0,3.0,3207 sq ft,"$4,473.51",1920.0,25,10/28/2025,true
+102,7663 Rosales Parkway Apt. 966,Sacramento,63598,Condominium,SALE,,0.0,4583,2418673.95,2015.0,8,08/31/2024,False
+103,5056 Kaitlyn Forges Apt. 016,SAN JOSE,65109,Multi-Family,Sale,3.0,3.0,,1534676.69,1850.0,31,10/04/2024,False
+104,40468 Rogers Lakes,OAKLAND,06119,STUDIO,RENT,,2.2,728,1518.18,1964.0,12,2025-06-02,False
+105,45460 Wright Mall,LONG BEACH,24111,MULTI FAMILY,For Rent,-1.0,0.0,4316 sqft,3517.64,1931.0,29,2026-02-04,true
+106,69704 Kelly Turnpike,Anaheim,45752,studio,For Rent,,0.0,,3029.32,1991.0,2,03/16/2025,true
+107,26871 Sanders Fort Apt. 708,Anaheim,92563,condo,RENTAL,2.0,2.5,1176 sq ft,"$1,750.04",,2,11/12/2025,False
+108,56968 Terry Turnpike,sacramento,45209,single family,RENTAL,-1.0,0.0,1757,"$2,866.31",1850.0,3,09/13/2025,True
+109,574 Kara Spurs Apt. 327,san francisco,09195,Townhouse,RENT,,0.0,4273,"$5,141.91",1988.0,35,15-10-2024,true
+110,845 Jean Street Suite 549,long beach,75238,STUDIO,For Rent,,3.6,2667 sq ft,"$5,582",,10,2026-02-12,0
+111,104 Jill Motorway,OAKLAND,27939,condo,Rental,-1.0,0.0,4930 sq ft,"$3,729",2030.0,28,04-12-2025,false
+112,42896 Zimmerman Station Apt. 105,SACRAMENTO,76446,CONDO,RENTAL,-1.0,2.3,2900 sq ft,"$4,920.14",,20,02/19/2026,true
+113,90613 Rebecca Gardens Suite 044,Sacramento,67298,STUDIO,For Rent,,,,"$7,551",1850.0,43,06/27/2026,False
+114,2173 Kemp Canyon Suite 414,ANAHEIM,55666,Town House,RENTAL,3.0,2.9,2211,"$3,613.31",,4,29-08-2025,false
+115,9747 Kennedy Locks Apt. 232,Bakersfield,71210,TOWNHOUSE,Sale,,2.2,3036 sq ft,493038.49,1910.0,23,24-08-2025,1
+116,8815 Haley Wall,SAN FRANCISCO,88722,multi-family,for sale,-1.0,,1978 sq ft,309630.66,,19,2024-12-16,True
+117,45839 Brian Viaduct Suite 935,LOS ANGELES,72056,SINGLE FAMILY,For Sale,3.0,,,1427276.39,,3,02-07-2026,false
+118,8025 Golden Glen Apt. 668,SACRAMENTO,31313,MULTI FAMILY,Sale,-1.0,,1311,"$495,760",1850.0,21,09-06-2026,True
+119,80385 Chen Motorway,Fresno,79253,MULTI FAMILY,rent,3.0,,527,"$4,786",,43,31-07-2024,False
+120,043 Cynthia Pike Suite 729,SACRAMENTO,95292,TOWNHOUSE,for sale,,3.6,3819,"$797,729.30",2030.0,22,2026-04-02,1
+121,76567 Fischer Rest,SAN FRANCISCO,23431,Condominium,For Sale,-1.0,1.5,,1572576.92,1984.0,4,14-01-2025,True
+122,,sacramento,81533,studio,Rental,-1.0,0.0,2445 sq ft,7779.62,,46,12/30/2025,1
+123,5691 Ward Summit Suite 127,los angeles,21517,Condominium,for rent,5.0,,3155,"$1,477.74",1979.0,21,2025-10-16,true
+124,132 Glenn Passage,fresno,78091,STUDIO,RENT,-1.0,3.7,2802,7937.93,1937.0,22,07-08-2024,true
+125,9401 Andrew Well,la,52922,Studio,rent,,,,"$6,232.72",,24,02/11/2026,True
+126,2556 Williamson Skyway Apt. 512,fresno,45578,Condominium,For Sale,,2.7,1739,"$2,986,969.84",1946.0,21,10-07-2025,1
+127,4084 Oconnor Drive,la,94150,Single-Family,Rent,4.0,3.9,2163,"$3,527.11",1973.0,12,2025-06-29,false
+128,463 Arnold Drive,Bakersfield,37704,Condominium,SALE,6.0,1.5,3830,"$693,913.44",,48,09-08-2025,0
+129,66962 Julia Mount,FRESNO,71767,Single Family,sale,-1.0,0.0,4484 sq ft,"$2,177,231",1850.0,23,28-03-2025,False
+130,80393 Smith Village Suite 493,LOS ANGELES,99374,Condominium,rent,-1.0,,,2705.11,1850.0,4,2026-06-08,1
+131,126 Brown Knolls Suite 994,Los Angeles,38612,condo,Rental,,1.1,3977 sq ft,2251.62,1850.0,1,05-05-2025,True
+132,978 David Expressway Suite 888,Long Beach,52728,Condo,For Rent,0.0,1.8,4384,"$5,387",1850.0,42,26-06-2026,False
+133,9558 Jason Stream,SAN DIEGO,40188,Townhouse,For Rent,3.0,4.0,1147 sq ft,"$1,885.30",1947.0,10,01/25/2025,True
+134,5751 Campbell Spring Apt. 306,FRESNO,45097,Townhouse,RENT,,,,4333.48,1926.0,45,15-03-2026,True
+135,33700 Teresa Ports Suite 250,Fresno,35186,Town House,for sale,,0.0,3165,"$2,968,429",2030.0,17,2026-03-10,false
+136,490 Bryan Pike,sacramento,33747,single family,For Sale,-1.0,1.6,,"$1,213,333",2030.0,44,2025-12-11,True
+137,4104 Pham Burgs,SAN DIEGO,94577,Studio,RENT,4.0,2.4,,"$1,651",1954.0,30,02/07/2025,true
+138,9669 John Canyon,fresno,68048,Townhouse,For Rent,0.0,3.8,,"$1,900",2030.0,10,24-11-2025,true
+139,23187 Salazar Lane,OAKLAND,94797,Town House,For Sale,,,2277 sqft,882254.21,,1,31-01-2026,0
+140,151 Alicia Pines Suite 304,SAN JOSE,28663,Condo,RENT,5.0,1.7,582,4618.1,1975.0,5,08/10/2025,false
+141,447 Jackie Flat,oakland,44055,Condominium,For Rent,,0.0,1840,"$6,111.71",1850.0,15,13-01-2026,true
+142,77678 Adams Park,SACRAMENTO,39347,condo,for rent,,,3868,"$1,646",,5,16-06-2025,True
+143,928 Hinton Unions,LONG BEACH,52562,CONDO,for sale,-1.0,0.0,2522,"$2,580,078",2030.0,27,19-06-2026,True
+144,336 Robert Terrace Suite 939,oakland,97470,Townhouse,for sale,0.0,3.3,441,"$894,495",1850.0,38,2025-11-30,False
+145,135 Marcus Lock Apt. 155,Long Beach,83871,single family,RENTAL,,0.0,2428,4373.0,1969.0,14,2025-07-18,True
+146,2130 Ashley Common,BAKERSFIELD,24842,Town House,Rental,-1.0,0.0,1530 sq ft,"$7,597",1955.0,9,09/04/2024,False
+147,3125 Andrew Hills,Sacramento,23468,condo,rent,-1.0,0.0,3460 sqft,5093.12,1924.0,49,2024-08-10,0
+148,68827 Annette Station Suite 402,SACRAMENTO,91631,Single-Family,Sale,3.0,0.0,2960,"$799,652.82",2030.0,39,2025-04-03,True
+149,4815 Cummings Stravenue,fresno,39429,Condominium,RENT,0.0,2.8,2542 sq ft,"$5,564.99",1850.0,33,2026-05-26,True
+150,,LOS ANGELES,87995,single family,For Sale,-1.0,0.0,2998 sq ft,"$1,804,351.91",1850.0,34,2025-02-18,False
+151,9503 Walker Mall Suite 576,OAKLAND,28488,Multi-Family,For Sale,,3.4,893 sqft,"$1,321,553",2030.0,12,19-09-2024,False
+152,403 Baxter Alley Apt. 269,Bakersfield,90109,Multi-Family,Sale,-1.0,4.0,,1932360.07,2030.0,15,11-04-2025,false
+153,2657 Mitchell Bridge,sf,84540,Single-Family,RENT,-1.0,,,7322.36,1957.0,20,28-04-2026,0
+154,89410 Regina Spur Apt. 747,san diego,48461,Single-Family,sale,4.0,,3863,1602332.1,2030.0,21,05/07/2026,True
+155,192 Robertson Plains Suite 982,San Diego,31406,Condo,rent,6.0,1.1,1251,3317.86,1850.0,8,09-05-2025,false
+156,11493 Watts Cove,san francisco,20135,MULTI FAMILY,RENT,5.0,2.3,3360,3078.2,2030.0,40,05/19/2025,0
+157,6709 Schmidt Summit Suite 723,Sacramento,77623,Multi-Family,Rental,1.0,2.3,976,4569.64,1982.0,47,2025-09-08,1
+158,,san diego,28006,single family,Rental,0.0,0.0,1805 sq ft,1277.74,2030.0,18,2025-08-03,1
+159,5422 Eaton Ways Suite 458,Sacramento,65420,studio,Rent,,3.1,3593 sqft,"$1,241",1953.0,33,07/28/2025,0
+160,274 Morgan Fork Apt. 135,oakland,21355,Multi-Family,Sale,4.0,3.6,3392,"$2,719,532.16",2001.0,13,11/04/2024,True
+161,30906 Warren Port Suite 862,SAN DIEGO,06982,townhouse,for sale,,1.7,1735,"$2,654,287.86",2030.0,9,06/10/2026,false
+162,761 Jason Fort,anaheim,14137,Condominium,Rent,-1.0,0.0,2477,"$6,887",1913.0,4,2024-09-18,True
+163,867 Henderson Shores,SAN FRANCISCO,11814,Single Family,RENTAL,6.0,3.6,3079 sq ft,"$4,286.37",2030.0,42,07-06-2025,True
+164,254 Daniel Burgs Apt. 521,SACRAMENTO,75940,Condo,Sale,1.0,3.3,,"$1,063,240.66",2030.0,6,11/27/2024,false
+165,,FRESNO,75156,single family,Rental,-1.0,,,"$3,301",,27,03/14/2025,True
+166,2298 Cox Forge Suite 663,Oakland,88611,condo,SALE,2.0,0.0,1810 sqft,"$1,330,961.13",,28,24-06-2026,false
+167,8908 Baker Lane,oakland,66385,Single Family,Rent,,3.7,,"$1,253.36",,46,12-03-2026,True
+168,74105 Alvarado Station,anaheim,65592,multi-family,for rent,0.0,,1269 sqft,"$7,933",1929.0,29,06-09-2025,True
+169,68353 Christina Land,Fresno,23779,Townhouse,RENTAL,-1.0,,2358,"$4,716.95",2030.0,4,04/28/2025,false
+170,89082 Kenneth Parkway Apt. 833,OAKLAND,80659,studio,sale,-1.0,3.0,4027 sq ft,610993.06,1850.0,23,2024-08-18,true
+171,7963 Leslie Garden Apt. 848,San Diego,52229,Condominium,RENTAL,,2.1,4659,"$7,246",2030.0,50,27-09-2025,true
+172,9942 Burnett Radial,Fresno,94997,townhouse,Sale,,2.9,2926 sq ft,773177.04,1850.0,27,08/16/2025,False
+173,421 Jennifer Land Suite 668,san francisco,34390,Town House,for rent,1.0,0.0,3860,5275.59,2030.0,29,29-01-2026,False
+174,4302 Shaffer Falls Apt. 026,Anaheim,76388,Condo,For Rent,-1.0,1.5,2530,"$6,579",,44,20-02-2026,0
+175,3490 Peter Corners Suite 019,SAN FRANCISCO,82414,SINGLE FAMILY,sale,,0.0,3108 sqft,"$2,218,869.30",,14,2025-06-06,1
+176,93718 Rodriguez Drive Apt. 795,SACRAMENTO,84891,MULTI FAMILY,for sale,-1.0,3.6,4769 sqft,"$1,940,783.65",1850.0,26,2026-05-20,True
+177,195 Tammy Heights Suite 632,San Francisco,39575,STUDIO,For Sale,1.0,,2745,2959244.13,1903.0,18,12-05-2026,0
+178,37935 Sanders Flat,San Francisco,34517,Town House,RENT,,,4368 sq ft,"$4,326",1983.0,23,2025-04-01,True
+179,73237 Daniel Trace,oakland,02421,Multi-Family,for rent,1.0,,733 sq ft,"$4,649.77",1850.0,37,14-11-2024,False
+180,68845 Walker Rue Apt. 679,san francisco,17846,Studio,for sale,4.0,3.7,,1326074.8,2030.0,26,2024-07-08,True
+181,68513 Terry Radial Apt. 414,BAKERSFIELD,46979,STUDIO,rent,4.0,,1007,"$5,248",2013.0,16,2026-03-04,false
+182,000 Jesse Canyon Suite 146,LOS ANGELES,88512,multi-family,For Sale,,,2502 sq ft,"$2,818,437",1970.0,20,2026-04-04,True
+183,0531 Boyd Pine Apt. 563,san diego,50092,multi-family,for rent,-1.0,,2730 sqft,6030.73,1957.0,5,10-01-2025,1
+184,7339 Kevin Forest,la,35541,Townhouse,For Rent,5.0,,,"$6,972",2030.0,23,2025-09-05,true
+185,56609 Bennett Islands Apt. 192,SAN DIEGO,45062,Single Family,sale,3.0,1.8,2451 sq ft,"$1,279,384.52",,23,10/08/2024,True
+186,6398 Jennifer Station,SF,74353,CONDO,RENT,,3.6,789 sqft,7473.69,2030.0,19,2026-02-07,False
+187,8539 Robinson Fort,FRESNO,72095,Studio,Rental,6.0,2.9,2257 sq ft,"$3,914.59",,19,02/07/2026,true
+188,7247 Sara Crescent,los angeles,18452,MULTI FAMILY,Rental,2.0,,4304 sq ft,"$1,519",,2,19-06-2025,1
+189,076 Meyer Creek,san jose,91126,townhouse,Rent,1.0,,4711 sqft,3791.65,1902.0,16,31-12-2025,1
+190,0227 Chen Track Apt. 708,sf,89353,MULTI FAMILY,For Sale,6.0,1.0,3792 sqft,"$1,029,467.34",1989.0,33,2024-10-16,1
+191,5015 Sandra Fork,oakland,14585,Condo,For Rent,2.0,2.5,4219,"$2,110",1964.0,8,2025-05-04,False
+192,8257 Michael Cove Apt. 965,Sacramento,17494,Condo,SALE,3.0,1.5,2601 sqft,1535253.82,2030.0,45,04/16/2025,1
+193,3676 Selena Camp Apt. 672,San Diego,09725,TOWNHOUSE,sale,2.0,0.0,1102,485691.96,,6,17-02-2026,True
+194,670 Russell Street Apt. 101,FRESNO,14889,Single-Family,For Rent,,0.0,2907 sqft,"$1,204",1990.0,49,28-09-2025,False
+195,0852 Austin Manor,SAN FRANCISCO,42361,multi-family,Sale,3.0,1.6,1409,"$991,478.12",2030.0,7,2025-05-29,True
+196,639 Smith Ford,SF,78786,condo,For Rent,2.0,1.5,2381,"$3,964",,42,21-06-2025,false
+197,66635 Perry Passage Suite 875,la,49811,Single-Family,Rental,,0.0,2746 sqft,5423.78,,31,07/03/2024,0
+198,927 Rosales Trafficway,SACRAMENTO,22283,SINGLE FAMILY,For Sale,,2.6,3218,2817000.25,1970.0,3,26-03-2025,0
+199,32364 Courtney Islands,Bakersfield,35642,TOWNHOUSE,For Rent,5.0,2.6,1838 sqft,7253.89,1901.0,44,03/31/2026,0
+200,732 Jackson Course,la,80579,Town House,Rental,-1.0,0.0,,"$1,634.14",2030.0,17,2026-01-29,1
+201,626 Todd Islands,fresno,81229,Multi-Family,for sale,4.0,1.3,2953 sq ft,"$1,630,768.42",,1,19-12-2024,1
+202,186 Wolfe Via Suite 865,sf,14725,Studio,SALE,3.0,1.2,4596 sq ft,"$1,537,870.27",2030.0,2,02/19/2025,false
+203,00107 Hutchinson Viaduct,SF,19111,studio,sale,,3.7,1266 sqft,2710421.63,2007.0,25,30-05-2026,True
+204,6942 Day Bridge,SACRAMENTO,29107,Studio,sale,6.0,2.6,1051 sq ft,2855259.7,1992.0,48,2026-01-05,1
+205,40823 Jordan Rapids,LOS ANGELES,28322,townhouse,for sale,,2.5,2179,1067525.49,1850.0,34,07/29/2025,1
+206,,FRESNO,51230,MULTI FAMILY,RENT,0.0,3.7,,6753.52,,20,07-01-2026,0
+207,7159 Vincent Hollow,los angeles,09129,MULTI FAMILY,Rent,1.0,,2700 sq ft,1643.92,1940.0,12,10/26/2025,True
+208,46300 Baker Plain Suite 505,SAN DIEGO,27934,Condo,RENTAL,5.0,,2549,3567.06,,23,08/22/2024,False
+209,014 Christopher Turnpike Apt. 309,sf,97982,multi-family,sale,-1.0,,1236 sq ft,2958107.75,,42,08/20/2025,1
+210,0507 Simmons Burg,SACRAMENTO,29969,multi-family,For Rent,2.0,1.2,1267 sq ft,2461.31,2030.0,41,2025-06-14,true
+211,294 Estrada Motorway Apt. 070,sf,59333,CONDO,RENTAL,,0.0,,6381.83,1850.0,24,12/14/2024,false
+212,29493 Scott Centers Suite 481,SACRAMENTO,11422,Single Family,for sale,-1.0,2.5,,1168106.73,2030.0,29,24-10-2025,true
+213,08737 Hutchinson Loaf Apt. 857,SACRAMENTO,08576,condo,sale,-1.0,0.0,,604306.33,1941.0,26,30-05-2025,true
+214,219 Waller Cliff Suite 927,san jose,55257,Condo,for sale,,,3360 sq ft,"$2,057,042",,18,16-03-2025,False
+215,55322 Pamela Hill Suite 798,la,48042,Single Family,sale,4.0,1.2,,1457315.04,1990.0,3,2024-08-25,1
+216,291 Donovan Roads,SACRAMENTO,60992,townhouse,rent,-1.0,1.9,4295 sqft,7721.59,2030.0,10,2026-05-11,1
+217,450 Cristian Drive,oakland,58022,Single-Family,Rent,4.0,0.0,4690 sq ft,1795.41,1916.0,17,08-10-2024,True
+218,42951 Elliott Manor,SACRAMENTO,42273,Single Family,rent,3.0,3.2,1649 sq ft,6623.9,1850.0,2,10/15/2025,True
+219,59973 Smith Fields Apt. 565,sf,70489,Single Family,SALE,6.0,1.2,1164,2776187.54,1950.0,31,13-06-2025,true
+220,6785 Leblanc Pine Suite 040,san francisco,20353,single family,For Sale,2.0,0.0,3564 sq ft,2039366.4,1850.0,1,2024-09-23,False
+221,4808 Brown Port,Fresno,89500,Town House,rent,,0.0,2086,"$6,297",1850.0,17,26-09-2025,False
+222,02221 Williams Radial Apt. 459,Long Beach,24987,Condo,sale,0.0,0.0,,"$324,562.26",2030.0,21,24-08-2025,1
+223,832 Clark Lodge Suite 965,oakland,38823,CONDO,for sale,,,3334 sq ft,2024402.15,1850.0,47,01-08-2025,True
+224,385 Amy Points Apt. 462,SAN JOSE,08484,CONDO,Rent,,,,"$1,706.68",2030.0,16,09/20/2025,False
+225,333 Kevin Coves,la,26629,single family,For Rent,5.0,3.2,2335,6959.35,1850.0,42,08/10/2025,false
+226,6003 Munoz Mountain Apt. 567,SAN FRANCISCO,06223,studio,SALE,6.0,,2512,2474187.4,,1,13-04-2025,False
+227,6767 Hansen Square Suite 462,san jose,46756,Multi-Family,SALE,-1.0,,4192,"$1,707,647",2001.0,16,06-10-2024,0
+228,9812 Michelle Orchard Suite 970,Oakland,18165,Town House,For Sale,2.0,1.1,3456,"$2,273,114.40",1850.0,18,2024-12-06,false
+229,459 Dan Mountains,Long Beach,37186,Studio,Rent,0.0,0.0,4039,6962.73,1944.0,9,05-04-2025,1
+230,73597 Brittany Lock,SAN FRANCISCO,02648,townhouse,SALE,0.0,2.2,,"$2,311,749.55",1850.0,1,2025-09-04,False
+231,795 Martin Brooks Suite 142,anaheim,05775,single family,rent,,3.6,3202 sq ft,5242.84,2030.0,17,2025-08-25,0
+232,230 Andres Summit,anaheim,98252,condo,For Sale,-1.0,1.3,1872 sqft,1622364.17,1973.0,7,10/17/2025,false
+233,6014 Richard Glens,LONG BEACH,33251,Studio,for rent,,0.0,1462 sqft,"$5,684",1850.0,35,2025-02-24,0
+234,8241 Thompson Vista Suite 934,Oakland,45876,Single-Family,Sale,0.0,1.8,2286,1097830.37,2030.0,39,16-01-2025,false
+235,4220 Yates Turnpike,SAN JOSE,10268,studio,for sale,,0.0,822 sqft,"$2,383,765",2001.0,12,2025-09-01,True
+236,8930 Natalie Lock,la,58070,TOWNHOUSE,for rent,5.0,,564,"$3,364",2030.0,16,03/11/2025,0
+237,475 Elizabeth Turnpike,sacramento,21801,condo,Rent,,0.0,,2387.51,1933.0,17,04-07-2024,1
+238,0845 Margaret Road Apt. 426,San Francisco,75100,condo,SALE,6.0,3.8,1379 sq ft,1422672.41,1946.0,25,03/19/2025,True
+239,26917 Sarah Path Apt. 038,San Diego,20174,multi-family,Rental,-1.0,,4918,"$7,198",,44,09/09/2025,false
+240,64154 Sutton Run,Bakersfield,43122,condo,Sale,4.0,1.3,3455 sqft,"$1,950,749",2030.0,9,29-09-2025,False
+241,,los angeles,88464,Condominium,For Sale,0.0,0.0,4524,1005108.53,,36,07/02/2024,true
+242,03984 Jasmine Path Suite 520,ANAHEIM,76119,multi-family,RENTAL,3.0,,803 sqft,3849.95,1939.0,36,08/25/2025,True
+243,752 Anderson Lights,OAKLAND,52725,MULTI FAMILY,for rent,5.0,0.0,4327,6615.45,1850.0,34,06/15/2025,1
+244,5380 Arnold Grove,anaheim,44618,Studio,sale,-1.0,3.2,3241,"$1,587,145.69",2030.0,43,2026-03-12,0
+245,91078 Andrea Fall Apt. 238,long beach,53042,CONDO,rent,-1.0,,577 sq ft,6737.66,,38,2026-05-30,False
+246,46890 Lucas Port Apt. 619,San Jose,20225,Townhouse,Sale,,3.8,2991,"$851,905",1980.0,8,12-04-2026,false
+247,,San Jose,92256,single family,for rent,,,4013 sq ft,"$6,589",1986.0,2,2024-12-01,false
+248,652 Billy Ridge,LONG BEACH,40907,SINGLE FAMILY,Rental,,0.0,4811 sqft,"$2,784.67",2030.0,2,09/16/2025,False
+249,127 Brandon Islands,San Diego,40379,studio,For Sale,2.0,1.2,4814 sqft,"$538,022.99",1937.0,11,07/06/2025,1
+250,13217 Garner Route,San Jose,28882,Single Family,RENT,1.0,0.0,4948,"$1,336",2030.0,18,2024-07-17,True
+251,247 Singh Ports,Oakland,75142,Condo,For Sale,6.0,,3985 sqft,"$2,910,144.05",1850.0,28,14-04-2025,true
+252,4624 Casey Lodge,San Francisco,33864,TOWNHOUSE,rent,2.0,3.7,4389,"$6,918.13",2030.0,23,2024-12-01,true
+253,51079 Hines Plains,la,11801,Single Family,Sale,2.0,3.0,3661,"$1,804,858.34",1946.0,32,12/31/2025,True
+254,80625 Peters Fall Suite 425,SAN FRANCISCO,93290,CONDO,RENTAL,,3.8,3649 sq ft,7385.08,1955.0,36,2026-01-24,True
+255,97042 Holloway Vista,Los Angeles,37390,Single-Family,Sale,,2.1,1873,"$1,939,760",2030.0,14,11/15/2024,True
+256,03516 Michelle Extension,SF,75712,Single Family,Rental,-1.0,0.0,1081 sq ft,"$7,254.51",1963.0,21,30-07-2024,true
+257,649 Madison Falls,BAKERSFIELD,43685,MULTI FAMILY,Rent,4.0,1.3,3072 sqft,1545.62,2010.0,10,08-08-2025,true
+258,65428 Brent Roads,LOS ANGELES,81915,Multi-Family,For Sale,-1.0,1.1,1274,2362419.63,1958.0,38,2026-06-07,False
+259,689 Carey Union,san jose,38046,Town House,for sale,4.0,,2206,"$2,570,642",2030.0,10,05-09-2024,True
+260,99747 Beth Shores,SACRAMENTO,07701,Single-Family,RENT,-1.0,,4340 sqft,"$1,843",2030.0,22,2024-12-12,False
+261,3812 Wang Burg Apt. 183,san jose,05102,Single-Family,Rental,0.0,0.0,1000 sqft,5633.62,,49,2026-02-14,True
+262,4880 Mark Pine Suite 325,sf,99162,Town House,rent,2.0,,,"$3,341",1906.0,24,12/11/2024,0
+263,03798 Lutz Centers Suite 134,san diego,55105,Single Family,SALE,-1.0,2.3,2871 sq ft,2174481.76,1850.0,34,12-01-2026,False
+264,0814 Wilkins Ridge Apt. 676,LOS ANGELES,35103,CONDO,RENTAL,1.0,0.0,3068,5136.91,1904.0,35,2024-08-30,True
+265,6471 Adam Pine Apt. 524,SAN FRANCISCO,85296,Condominium,rent,4.0,2.8,3827 sq ft,"$3,051.46",1952.0,2,03/29/2025,false
+266,80862 Garcia Mountains Apt. 917,SAN JOSE,10630,TOWNHOUSE,Rental,1.0,2.9,2113 sqft,"$4,101",1999.0,50,03/15/2025,True
+267,8252 Glenn Villages,anaheim,04300,studio,Sale,,0.0,3687,"$2,491,721.40",1850.0,35,07/01/2025,1
+268,825 Jackson Land,OAKLAND,45575,Single Family,for rent,,,4080 sq ft,6142.59,1936.0,31,12/25/2025,True
+269,214 Paul Parkways,anaheim,00662,CONDO,for rent,5.0,1.3,1610 sqft,"$3,230.30",1917.0,34,12/02/2024,False
+270,,sf,20822,Single Family,sale,,0.0,3890,"$2,427,324",1958.0,32,05/24/2026,False
+271,89101 Romero Pike Suite 133,Long Beach,90997,Condominium,for sale,,1.6,,"$1,570,511.88",2009.0,14,10-05-2025,true
+272,4480 Ross Parks Apt. 317,Oakland,50226,studio,Sale,3.0,3.9,,2446792.03,1949.0,49,2026-05-18,True
+273,764 Perry Path Apt. 204,SAN DIEGO,53135,Multi-Family,Rent,-1.0,0.0,792,2256.57,2022.0,42,06-02-2025,0
+274,08967 Holland Canyon,oakland,57181,Condo,SALE,,3.3,2700 sq ft,"$2,410,544",,34,12-03-2025,0
+275,26307 Brown Squares,BAKERSFIELD,95545,MULTI FAMILY,SALE,3.0,0.0,3598,"$445,356",1930.0,44,02/26/2025,0
+276,0278 Jodi Stream Apt. 256,LOS ANGELES,72110,SINGLE FAMILY,For Sale,,,,1569561.86,,12,23-10-2025,False
+277,0794 Dominguez Shoals,san jose,63768,Townhouse,RENT,,1.5,,7958.68,1998.0,45,25-10-2025,True
+278,5297 Tracey Road Apt. 544,sacramento,58192,Single Family,RENTAL,5.0,0.0,3021 sq ft,7127.38,1987.0,3,09/14/2024,1
+279,0958 Lewis Rest,san francisco,60737,Townhouse,For Rent,0.0,,3503,"$6,311",1850.0,22,24-01-2026,True
+280,,FRESNO,66801,Studio,RENTAL,-1.0,1.4,632 sq ft,"$4,020.58",1940.0,17,2024-11-14,True
+281,81000 Matthew Hills Suite 662,oakland,18776,CONDO,sale,0.0,2.3,4312,"$524,805",2000.0,30,2024-10-02,0
+282,922 Adams Fort,fresno,77469,Town House,Rental,,2.7,3650,"$4,159",2030.0,36,2025-01-08,False
+283,918 Watson Park,FRESNO,94831,Condo,SALE,,0.0,1902,2536863.24,,29,24-11-2024,1
+284,5965 Williams Passage,anaheim,59420,studio,For Sale,-1.0,,2392 sq ft,"$485,616",,20,12/16/2024,False
+285,972 Huffman Wells,SF,76325,Condo,RENTAL,3.0,2.8,921 sq ft,"$7,440",1970.0,36,10/09/2024,1
+286,19794 Dean Isle,SAN DIEGO,29454,condo,For Sale,1.0,,,"$724,980.82",1966.0,42,28-04-2026,True
+287,2168 Cynthia Track,san diego,76556,Condo,For Sale,,2.4,2956 sq ft,"$1,721,733",2030.0,44,02/28/2026,false
+288,6106 Brett Landing,san diego,84681,studio,Sale,1.0,2.5,868,"$2,642,227",2002.0,38,05/11/2025,False
+289,4959 Whitehead Way Apt. 002,SACRAMENTO,56683,CONDO,Rent,0.0,0.0,,"$5,273",1850.0,46,04-10-2025,False
+290,016 Sara Cape,San Diego,76903,multi-family,sale,,1.3,1227 sq ft,"$2,458,147.83",,50,2026-03-17,true
+291,200 Robinson Isle,los angeles,63674,Condo,SALE,-1.0,3.1,4104 sqft,"$2,206,079.34",2030.0,24,2026-06-03,true
+292,5101 Palmer Falls,LONG BEACH,98668,single family,RENT,0.0,,3999,1221.82,1850.0,4,2025-09-07,False
+293,6236 Rodriguez Lakes Apt. 988,San Francisco,97424,Condo,Rent,,1.5,3031 sq ft,6644.65,1850.0,21,2025-09-26,1
+294,3885 Mark Ridges,Anaheim,17508,Single Family,sale,5.0,1.1,1000 sq ft,1315705.61,1965.0,26,11/29/2024,True
+295,843 Shannon Roads Suite 263,Anaheim,21243,Multi-Family,rent,3.0,2.2,3263 sqft,4725.5,,2,2025-11-29,1
+296,564 Troy Curve Apt. 143,fresno,15301,studio,Sale,,,4395 sqft,2909876.18,1850.0,41,08/30/2024,False
+297,,SAN DIEGO,33034,multi-family,for sale,2.0,,1782 sq ft,1404040.0,1910.0,24,05/08/2026,true
+298,30806 Thomas Expressway,LONG BEACH,14086,Townhouse,for sale,1.0,3.7,3463 sq ft,"$1,827,893",1850.0,13,23-08-2024,0
+299,197 Oconnor Lights Apt. 415,San Diego,54614,Condominium,for rent,5.0,2.0,1562,2741.61,1850.0,24,30-03-2025,1
+300,84573 Jeffrey Bypass,oakland,12871,Townhouse,RENT,2.0,0.0,875,"$2,001.56",1933.0,24,05-04-2026,false
+301,90444 Leonard Light Apt. 207,san jose,01957,Condominium,For Sale,,2.0,1773 sqft,"$2,724,577.73",1957.0,8,2024-12-16,0
+302,25434 David Route Suite 565,sacramento,23438,single family,SALE,-1.0,,4154 sq ft,783519.95,1961.0,16,06/10/2026,false
+303,7716 Clark Island Apt. 458,LONG BEACH,01617,Studio,RENT,-1.0,,3055,"$6,738.24",1949.0,6,01/05/2025,true
+304,,fresno,48041,studio,Rental,4.0,2.0,4555 sqft,"$7,057",1986.0,16,2024-08-25,0
+305,70370 Cordova Ford,Bakersfield,98966,condo,sale,,1.3,,2293053.99,1850.0,25,04/13/2025,False
+306,01822 Evan Stravenue Suite 335,SACRAMENTO,20654,Townhouse,Sale,-1.0,,,2450848.71,2015.0,11,06/14/2025,false
+307,5793 Ann Wall Apt. 151,Oakland,93842,Studio,Sale,-1.0,0.0,,1338126.45,2030.0,1,25-11-2025,True
+308,480 Jackson Shores Apt. 546,Anaheim,12983,CONDO,SALE,,1.7,2849,1161657.38,1972.0,4,2025-07-18,True
+309,147 Little Mountain Suite 039,anaheim,58012,studio,for rent,0.0,3.4,3890 sqft,2952.41,1917.0,25,01-03-2025,false
+310,05000 Nathan Plains Suite 925,LONG BEACH,36727,Studio,SALE,-1.0,1.2,2563,"$887,515.66",1990.0,43,08/22/2024,False
+311,7580 Sara Spur,Long Beach,76856,studio,Rental,,0.0,1038,7556.56,1850.0,28,25-02-2025,False
+312,4170 Frazier Dam Suite 151,San Jose,98161,MULTI FAMILY,rent,,2.6,3486 sqft,1316.95,1915.0,19,2025-05-24,False
+313,,SAN FRANCISCO,19341,Townhouse,rent,0.0,3.2,992 sqft,"$4,105.94",1850.0,40,08/06/2024,0
+314,61979 Kimberly Station Suite 038,sf,47957,Multi-Family,for sale,,,4043 sqft,"$306,910.96",,19,24-06-2025,False
+315,926 Maria Circle Suite 464,LONG BEACH,64356,studio,Rent,4.0,4.0,3046 sqft,"$2,097.61",1850.0,6,06/07/2025,true
+316,3773 Tracy Loop Suite 411,sacramento,78506,MULTI FAMILY,For Rent,,0.0,1665,1845.49,,3,2024-11-16,0
+317,99216 Chelsea Lock,anaheim,65332,studio,Rental,2.0,2.3,2841,2894.12,1900.0,31,2025-09-24,False
+318,7149 Mary Drives Suite 481,FRESNO,59483,SINGLE FAMILY,RENTAL,2.0,0.0,2590 sqft,"$6,002.77",,18,2026-02-28,true
+319,40217 Ingram Forks,Sacramento,05307,Condominium,SALE,6.0,,2489,"$2,142,024",1922.0,44,2025-04-23,False
+320,9348 Ingram Center,Long Beach,91086,Studio,SALE,,0.0,4629 sq ft,"$676,393.36",,13,06/12/2025,True
+321,508 Taylor Underpass,anaheim,09157,Multi-Family,sale,-1.0,,,"$663,539.32",1989.0,37,14-11-2024,1
+322,49570 Dana Brooks Apt. 014,los angeles,37075,MULTI FAMILY,RENTAL,4.0,3.2,,2265.8,1901.0,47,11/11/2024,True
+323,77839 Martin Ville Apt. 740,sacramento,09999,condo,For Sale,,,3552,"$1,909,117.03",1850.0,13,02/12/2026,True
+324,41974 John Springs Suite 131,OAKLAND,55001,single family,Rent,-1.0,,3195,"$4,685.01",1928.0,5,2025-01-15,True
+325,31745 Stone Fork,Sacramento,50905,Multi-Family,rent,,1.2,,"$1,566",1968.0,10,07-03-2026,False
+326,71054 Kelly Mountain Suite 859,san diego,99385,Single-Family,Rent,-1.0,,,"$7,212.81",2030.0,25,04/14/2026,false
+327,958 Wright Meadow,Los Angeles,28313,Single-Family,for rent,,2.9,1722 sqft,5292.92,,39,01/22/2026,False
+328,991 Kevin Estate,Sacramento,49391,Town House,Rent,6.0,,583,"$2,884.31",2012.0,22,29-07-2025,false
+329,8762 Bobby Forest,Bakersfield,34730,Multi-Family,Rental,-1.0,1.8,,5127.01,2030.0,23,2025-01-16,False
+330,75800 Christopher Rest,Anaheim,73434,TOWNHOUSE,RENT,-1.0,0.0,4191 sq ft,"$2,998.82",1850.0,15,21-04-2026,0
+331,297 Bowen Coves Suite 907,oakland,70458,Townhouse,For Rent,0.0,,4266 sqft,"$5,875.27",2007.0,23,2025-09-02,True
+332,72054 Andrea Wall Suite 856,Long Beach,74766,Condominium,Sale,0.0,,4226,"$2,669,708.61",1850.0,40,2026-02-04,True
+333,9857 Hill Crest,SAN FRANCISCO,70551,Single-Family,for sale,,3.2,4055 sqft,"$2,008,737.16",1995.0,38,2024-07-10,False
+334,8667 Hernandez Oval,San Diego,22875,STUDIO,RENT,1.0,,502,"$6,599",1907.0,36,02-08-2025,true
+335,,FRESNO,35632,Single-Family,For Sale,6.0,2.8,,2720289.76,2030.0,47,2025-12-27,0
+336,059 Dylan Trail Suite 376,los angeles,23540,TOWNHOUSE,rent,,0.0,4584 sq ft,7032.68,,31,05/18/2025,True
+337,884 Shea Wells Suite 709,sf,67629,Multi-Family,For Rent,-1.0,2.1,432 sq ft,5057.17,1991.0,29,09/03/2025,True
+338,40309 Williams Fords,SAN FRANCISCO,41972,Condominium,for rent,-1.0,3.8,790 sqft,5713.1,1966.0,42,10-01-2026,False
+339,3183 Brianna Road Apt. 477,SACRAMENTO,79348,Single Family,SALE,4.0,,,682381.03,2030.0,12,07/28/2024,False
+340,705 Lowe Circles Apt. 338,Long Beach,51869,studio,for rent,4.0,2.7,,2960.31,,41,06-08-2024,True
+341,86586 Jacqueline Lights,oakland,58805,Single Family,For Rent,-1.0,,2954 sq ft,"$6,512",1993.0,44,07/21/2024,True
+342,928 Christopher Burg,fresno,34763,townhouse,Rent,,2.8,3624,"$7,583.42",,25,2025-11-11,1
+343,7003 Robinson Highway,la,95189,Town House,SALE,-1.0,1.6,,"$2,989,261",1910.0,15,09/07/2024,True
+344,9868 Allen Brooks,Long Beach,29104,Town House,Rental,-1.0,,515,"$7,360.59",1936.0,22,03/30/2026,0
+345,2914 Jason Circles,fresno,73933,Condo,For Rent,,2.5,,"$2,288",1925.0,38,2025-03-26,False
+346,743 Matthew Tunnel,Los Angeles,26843,multi-family,For Rent,,0.0,2822,5216.33,1935.0,3,08-06-2026,true
+347,009 Kim Alley,San Diego,28867,SINGLE FAMILY,for sale,0.0,3.9,4771,2446220.88,2030.0,38,12/15/2024,false
+348,462 Kevin Ville,BAKERSFIELD,09759,single family,RENTAL,1.0,1.3,3054 sqft,2992.5,1850.0,43,2025-02-22,False
+349,1927 Jason Place,FRESNO,71759,Condominium,SALE,1.0,1.8,,"$1,450,405",,35,03/23/2026,false
+350,652 Walter Wells Apt. 085,SAN FRANCISCO,31943,single family,sale,2.0,4.0,652 sqft,"$2,229,940",2008.0,46,07/24/2024,true
+351,69408 William Gardens,san francisco,64269,Town House,for rent,,,440,2900.42,1982.0,18,2025-03-29,False
+352,20063 Adam Track Suite 576,san diego,86462,Condo,For Sale,-1.0,3.9,3516 sqft,773957.9,2023.0,25,30-09-2024,false
+353,001 Catherine Terrace,ANAHEIM,93626,condo,RENT,-1.0,0.0,4523,"$1,520.88",2030.0,46,2026-02-02,False
+354,0247 Howard Hills Suite 379,BAKERSFIELD,38565,TOWNHOUSE,for rent,1.0,2.7,2510,"$1,421.41",,10,09/20/2024,True
+355,49451 Perez Road Suite 273,Bakersfield,42348,Condominium,Rental,3.0,,1775,"$6,983.40",1909.0,13,20-10-2025,False
+356,5024 Robert Creek Apt. 528,san jose,08516,Single Family,SALE,6.0,0.0,1435 sqft,"$1,323,779.14",1967.0,6,22-03-2026,False
+357,,ANAHEIM,07107,Single Family,for sale,-1.0,,2420 sq ft,961187.46,2030.0,32,01-02-2026,false
+358,63605 Tracy Lakes,oakland,00609,TOWNHOUSE,For Sale,,0.0,1028,"$2,432,403",,46,09/17/2024,false
+359,8807 Brittany Parkways Apt. 495,SF,36397,Single Family,Rent,-1.0,0.0,,"$6,811",2030.0,39,08-03-2026,0
+360,0766 Joshua Lane,Fresno,71210,Single-Family,RENTAL,0.0,1.9,2684,"$7,949",1923.0,18,2026-03-09,True
+361,4724 David Court Suite 366,los angeles,63542,CONDO,for sale,6.0,3.9,1266,748021.7,1850.0,40,13-12-2024,1
+362,427 Gonzalez Harbors,SF,15729,townhouse,SALE,4.0,1.9,1422 sqft,"$1,965,403",1922.0,22,22-01-2026,True
+363,,SAN DIEGO,88797,condo,For Rent,2.0,3.1,4846,7692.11,1850.0,27,10/21/2025,True
+364,20518 Christensen Crossing Apt. 269,Oakland,99522,Condo,For Sale,6.0,3.0,3214,"$1,437,742",1952.0,3,2024-10-25,False
+365,7539 Hernandez Isle,san diego,96191,Town House,for rent,1.0,2.9,2541,"$6,250",1933.0,16,04/11/2025,False
+366,8450 Michael Passage,anaheim,62123,CONDO,for rent,-1.0,0.0,4981,"$4,718.48",1964.0,40,11/06/2024,false
+367,85176 Kevin Stravenue,Bakersfield,37583,Studio,RENT,3.0,4.0,3051,2155.45,,45,06/09/2025,True
+368,102 Chris Estates Suite 695,san francisco,43189,Townhouse,rent,0.0,2.5,1785 sq ft,"$4,735",1945.0,41,04/20/2026,False
+369,09183 Jennifer Fork Suite 489,Fresno,02064,Studio,For Rent,,1.2,4688 sq ft,"$1,955",1960.0,20,16-10-2024,True
+370,367 Hernandez Loop,SACRAMENTO,32752,TOWNHOUSE,SALE,,0.0,649 sqft,1361243.4,1850.0,21,2026-05-18,False
+371,44630 Cynthia Tunnel Apt. 373,san jose,99765,Single-Family,For Rent,-1.0,0.0,3644 sqft,"$4,088.76",1976.0,46,2025-07-16,False
+372,05807 Lisa Station Suite 924,San Jose,53105,Condo,SALE,5.0,,,"$1,840,070",2030.0,42,2025-09-22,False
+373,25866 Johnson Stream Suite 669,Anaheim,76295,Single-Family,Rental,,0.0,4482,5028.08,1936.0,6,2025-01-30,True
+374,4764 Thomas Green Suite 294,ANAHEIM,73440,Condo,Rental,1.0,1.6,4787 sqft,"$2,852.94",1850.0,47,2025-04-07,False
+375,122 Alicia Flats,SAN FRANCISCO,31956,townhouse,For Rent,,1.8,1694 sq ft,"$7,021",1923.0,50,10/09/2024,false
+376,452 Donald Track,LOS ANGELES,74739,townhouse,for rent,-1.0,3.5,681 sqft,"$7,210.09",1970.0,48,2025-06-26,True
+377,0614 Hernandez Lane Apt. 634,SACRAMENTO,62178,studio,Rental,-1.0,1.6,1356,7268.31,2030.0,11,04/12/2026,true
+378,78511 Dakota Fork Apt. 332,Long Beach,44366,multi-family,For Sale,0.0,,,1908299.72,2020.0,12,12-08-2025,True
+379,09316 Antonio Forest Apt. 026,ANAHEIM,47863,CONDO,RENT,4.0,,,2784.8,1925.0,7,10/23/2024,False
+380,5628 Ali Divide Suite 133,SAN JOSE,86426,condo,Rental,1.0,0.0,2890,"$3,188",1953.0,41,12/10/2025,True
+381,16279 Mullins Vista Apt. 415,FRESNO,88818,CONDO,RENTAL,,,3604,"$6,533.42",2030.0,8,03/23/2025,True
+382,877 Rodriguez Rapids,sf,65103,multi-family,for rent,,3.6,2363 sqft,"$1,627",,18,2026-02-28,False
+383,3462 Burns Port,SF,31632,Condo,For Rent,5.0,1.4,1139 sq ft,"$6,987",,7,16-11-2024,False
+384,0037 Wong Mall Apt. 176,sacramento,83060,STUDIO,for sale,0.0,3.6,4308,"$2,988,379.51",1930.0,19,27-08-2024,1
+385,9214 Russell Isle Apt. 486,OAKLAND,23209,Condominium,For Sale,3.0,0.0,4614 sqft,1367405.24,2016.0,13,2024-11-12,False
+386,68810 Vicki Pass,SAN JOSE,34525,condo,RENT,0.0,,2743,"$3,535",1850.0,19,05/12/2026,False
+387,05120 Richmond Junctions,SF,98147,SINGLE FAMILY,rent,3.0,0.0,3651,1320.67,1934.0,50,01/10/2026,True
+388,,Bakersfield,80081,condo,For Sale,1.0,3.9,1527,710619.79,1966.0,9,20-02-2025,False
+389,586 Brock Crescent Apt. 461,FRESNO,34782,townhouse,For Rent,3.0,1.6,4549 sqft,"$7,956",,25,2025-07-05,true
+390,83187 Bauer Squares,Anaheim,14402,Single Family,Rental,5.0,0.0,3945 sq ft,1964.42,2030.0,14,23-02-2025,false
+391,5904 Mckinney Inlet Suite 751,los angeles,56621,Studio,For Sale,,0.0,1478,"$2,514,374",,49,23-09-2024,1
+392,01525 Bryan Wall,Fresno,02233,MULTI FAMILY,SALE,-1.0,0.0,4106,2457204.5,1905.0,38,23-09-2025,True
+393,221 Christopher Port Suite 682,sacramento,63107,SINGLE FAMILY,for sale,3.0,,2028 sqft,"$1,329,348",1850.0,44,2024-10-17,False
+394,527 Natalie Mountains Suite 560,fresno,94625,SINGLE FAMILY,Rent,,1.3,2716 sqft,2769.7,1981.0,23,12/23/2025,True
+395,93686 Robinson Mill Apt. 954,SAN DIEGO,94529,CONDO,Rental,4.0,,2179,2582.63,1850.0,49,2024-10-06,True
+396,6771 White Divide Suite 716,san francisco,74931,Condominium,Rental,,3.3,3589,7687.42,1929.0,1,05/29/2025,False
+397,8313 Adkins Mountain Suite 793,la,70642,Condominium,sale,0.0,1.0,4974 sq ft,906723.26,2030.0,47,11/22/2024,1
+398,9479 David Stream Apt. 963,san diego,79987,CONDO,rent,6.0,1.8,2741,"$5,682.79",2030.0,6,2025-01-26,False
+399,48481 Meyer Mews,ANAHEIM,21101,Single-Family,RENT,,,3717,7022.18,1914.0,32,2024-11-25,false
+400,92209 Jones Pine,sf,70342,Condo,for sale,4.0,2.4,3639 sq ft,"$458,786.91",1970.0,50,2025-09-22,true
+401,902 Tiffany Pine,Sacramento,47500,MULTI FAMILY,rent,-1.0,1.0,3520 sq ft,4550.84,1850.0,43,06/21/2026,1
+402,,SAN DIEGO,17422,condo,Rental,-1.0,2.3,4118 sqft,4104.16,1996.0,24,22-12-2025,true
+403,9294 Alvarez Hill Apt. 673,LONG BEACH,25038,Single-Family,Rent,5.0,2.1,4933,1722.77,1850.0,3,2026-02-04,False
+404,32902 Taylor Stravenue,SAN DIEGO,27766,Townhouse,rent,-1.0,2.2,2157 sqft,6974.7,1850.0,48,12-08-2024,0
+405,42097 Armstrong Plains,Fresno,27712,multi-family,Rental,1.0,,,"$3,202",1951.0,11,11/12/2024,1
+406,1310 Hayes Pass Suite 258,Fresno,49157,TOWNHOUSE,rent,-1.0,0.0,,"$4,545.93",2012.0,12,10/15/2024,False
+407,7631 Craig Fork,Long Beach,35014,Single-Family,rent,0.0,2.0,3374 sqft,6007.09,,26,12-10-2024,false
+408,02145 Kristin Keys,Sacramento,20578,CONDO,Rent,2.0,,1968,"$6,880.26",,15,2025-05-28,0
+409,21965 Rebecca Estate,SACRAMENTO,66489,Studio,sale,6.0,2.0,2352 sqft,"$1,344,584.79",1850.0,25,02/08/2026,True
+410,0103 Debra Rest,Sacramento,71846,condo,For Sale,4.0,1.8,4077 sq ft,"$649,514",1850.0,9,2025-04-04,False
+411,3401 Deanna Stream Apt. 529,LONG BEACH,95761,Multi-Family,for rent,5.0,1.3,4606,1915.47,2023.0,36,10/17/2025,1
+412,715 Steele Overpass,BAKERSFIELD,03251,condo,Sale,0.0,2.3,3368 sqft,2134516.89,1918.0,12,12-02-2025,false
+413,7026 Julie Gateway,SAN DIEGO,25596,Single-Family,Sale,,0.0,4716,351959.6,2030.0,23,2024-08-04,1
+414,40683 Pitts Spur,SACRAMENTO,66562,Condo,Rental,2.0,,3160,"$6,769.95",2030.0,32,04-08-2024,0
+415,8361 Kirk Brooks Suite 902,Long Beach,49990,Multi-Family,For Rent,3.0,1.3,,"$2,394",1959.0,23,11/07/2024,True
+416,,BAKERSFIELD,77638,Single Family,Sale,4.0,,4825 sqft,1120772.34,,20,19-06-2026,True
+417,65806 Davis Lock,ANAHEIM,37998,SINGLE FAMILY,sale,-1.0,1.5,4034,2156810.12,1905.0,40,2026-06-14,True
+418,9626 Davis Road Suite 527,san francisco,38054,SINGLE FAMILY,RENT,1.0,2.1,2447,"$1,482.75",1914.0,2,26-04-2025,0
+419,807 Daniel Extension Apt. 250,sf,11621,condo,Rent,,1.3,4953,4413.08,,9,2024-11-25,True
+420,6286 Evans Spurs,LONG BEACH,71417,TOWNHOUSE,For Rent,5.0,,474 sq ft,"$5,249.77",1973.0,49,12/20/2024,true
+421,891 Walker Land,los angeles,41676,MULTI FAMILY,For Sale,,,,2213202.03,2030.0,14,06-10-2024,False
+422,97239 Kenneth Shoal Apt. 157,SAN DIEGO,29171,Town House,Rent,-1.0,1.1,,1386.58,,28,2025-09-01,true
+423,40647 Shepard Rapids,SACRAMENTO,55985,TOWNHOUSE,sale,1.0,0.0,1291,"$2,641,433",,27,03/15/2026,False
+424,6155 Aaron View Apt. 094,SACRAMENTO,90089,Multi-Family,for rent,5.0,3.4,3427,"$3,878",1913.0,22,2026-02-10,0
+425,768 Joseph Trail,San Diego,12610,studio,For Sale,6.0,,3135 sqft,393540.49,2030.0,14,2025-03-29,False
+426,3388 Sanchez Isle,SACRAMENTO,32361,townhouse,Sale,4.0,2.8,1830 sqft,"$1,968,253",,27,2026-04-05,1
+427,23770 James Fort,ANAHEIM,89346,STUDIO,RENTAL,5.0,0.0,2494,7179.57,2030.0,48,08/20/2024,1
+428,53526 Hill Islands,fresno,64132,townhouse,Rental,4.0,2.2,,"$5,384.76",2030.0,44,2025-06-16,False
+429,63676 Jacob Squares,Bakersfield,37081,Single-Family,for rent,3.0,0.0,2488,7135.45,1850.0,5,12/05/2024,True
+430,9636 Christopher Vista Suite 925,Los Angeles,73736,single family,for rent,6.0,0.0,4105 sq ft,"$2,153",1850.0,25,02/21/2026,true
+431,915 Grace Causeway,long beach,29822,Single Family,Sale,-1.0,0.0,,"$981,576",1999.0,15,2026-03-16,True
+432,333 Jordan Falls Apt. 866,Long Beach,13401,multi-family,Rent,,,1323 sqft,"$3,229.71",2017.0,35,2025-10-14,False
+433,25804 James Corners Apt. 402,oakland,94117,Townhouse,for rent,-1.0,1.7,4741,"$6,536",1935.0,17,04/09/2026,True
+434,207 Kim Pines Apt. 602,los angeles,61484,Multi-Family,SALE,-1.0,1.6,3923,"$506,801.73",1972.0,41,02-12-2024,0
+435,63652 Howell Isle Suite 866,ANAHEIM,02387,Town House,SALE,-1.0,0.0,,980839.99,,40,15-06-2026,false
+436,721 Leonard Glen Suite 622,SAN FRANCISCO,30870,SINGLE FAMILY,Rent,0.0,,2523 sqft,"$3,769.27",,45,02-06-2026,False
+437,,San Francisco,20172,Single-Family,RENTAL,1.0,2.3,849 sqft,1873.95,2030.0,26,05-02-2025,0
+438,792 Charles Overpass,sf,72640,SINGLE FAMILY,Sale,,3.1,3404 sqft,"$2,711,231.39",2030.0,27,01-09-2025,True
+439,122 Aguilar Meadow,LONG BEACH,83256,townhouse,RENTAL,-1.0,3.2,,6355.28,1850.0,41,09/11/2024,1
+440,11693 Henry Common,san francisco,29022,townhouse,SALE,-1.0,3.8,2556 sq ft,"$987,529",2030.0,37,2026-05-20,False
+441,57681 Bennett Roads Suite 290,fresno,86633,STUDIO,for rent,1.0,,1770,6677.92,2024.0,19,2026-04-22,1
+442,69844 Jackson Bridge Apt. 517,Oakland,99128,Studio,for sale,6.0,,,1855950.77,1922.0,48,05/17/2025,false
+443,346 Young Mission,SAN JOSE,02755,CONDO,For Sale,0.0,1.7,,"$1,249,428.60",1953.0,3,2025-01-20,False
+444,784 Jessica Radial Suite 103,oakland,10173,Multi-Family,For Rent,-1.0,0.0,1876,2735.0,1931.0,26,02-06-2026,True
+445,3514 Simmons Cliffs,FRESNO,07775,Single Family,Rental,,0.0,,1390.36,1960.0,21,12/20/2025,1
+446,10822 Judith Ridges,san jose,48272,STUDIO,rent,1.0,3.8,1355,"$6,994",,28,2026-06-17,false
+447,64089 Howard Viaduct Apt. 679,Fresno,17075,Condominium,RENT,-1.0,3.2,3756,2740.96,,49,12/28/2024,true
+448,568 Anderson Shoals Apt. 135,san francisco,17056,townhouse,Sale,-1.0,2.7,3379,1290956.84,1850.0,50,02/20/2025,false
+449,1729 Elizabeth Parkway,los angeles,12942,Studio,RENT,3.0,0.0,,"$5,676.49",1850.0,31,31-12-2025,False
+450,677 Mitchell Creek Suite 108,San Francisco,62194,Condo,For Sale,,2.8,3174,2488833.48,1850.0,48,2025-07-23,True
+451,78978 Jackson Junctions,los angeles,29085,Single-Family,for sale,-1.0,1.5,2928 sqft,"$2,815,081",1850.0,8,03-07-2025,true
+452,3945 Stevens Vista Apt. 711,San Francisco,40181,SINGLE FAMILY,For Sale,,,,1185763.25,2030.0,49,2024-08-06,False
+453,2838 Anthony Grove,Oakland,87218,Multi-Family,For Sale,-1.0,1.7,,1113053.31,1928.0,23,2024-12-31,True
+454,694 Lisa Path,fresno,89575,Townhouse,Rent,,2.4,2170 sqft,3400.2,,13,11/30/2025,True
+455,05035 Scott Freeway,San Jose,92322,MULTI FAMILY,rent,,1.1,2676 sq ft,"$3,585",2014.0,17,06/16/2026,1
+456,02167 Donald Corner Suite 633,los angeles,99348,MULTI FAMILY,SALE,3.0,3.1,497 sq ft,"$2,455,369.83",1951.0,10,01/13/2025,true
+457,531 Lonnie Green Suite 622,Oakland,94044,Single-Family,Rent,,3.8,3076,2767.73,1943.0,12,09/14/2024,True
+458,2758 Holly Rue Apt. 996,FRESNO,06125,Single Family,Rent,-1.0,,3254 sqft,2892.97,1850.0,11,11/16/2025,1
+459,202 Carlos Cliffs,san francisco,73831,TOWNHOUSE,Rental,-1.0,0.0,2950,7541.48,2030.0,17,17-07-2024,false
+460,074 Mary Ford Apt. 990,oakland,58152,Town House,SALE,1.0,0.0,2456,2805825.61,1983.0,17,2025-06-27,True
+461,769 Stephanie Lakes Suite 350,sf,46704,Townhouse,Sale,2.0,3.4,576,1824748.28,2015.0,38,28-08-2024,True
+462,468 Ross Junctions,BAKERSFIELD,20386,Condominium,RENTAL,,1.0,2390 sqft,7558.93,2030.0,10,30-06-2025,1
+463,331 Kevin Throughway,SAN JOSE,25502,townhouse,rent,-1.0,1.7,1852 sq ft,7058.78,2013.0,46,2025-04-08,False
+464,76961 Diana Ports,SF,66867,Townhouse,RENT,5.0,,416,4914.88,,43,2025-08-14,False
+465,,Sacramento,69812,Single Family,For Sale,0.0,2.3,1276 sqft,1571093.19,1951.0,13,08-10-2025,0
+466,,OAKLAND,57603,condo,sale,,,3634,"$2,969,371.50",,7,07/28/2025,0
+467,521 Henson Loaf,Fresno,19888,Multi-Family,For Sale,-1.0,0.0,2978,370204.38,,30,03/02/2025,true
+468,96369 Christine Village Suite 669,la,25340,studio,Sale,,2.4,772 sq ft,734599.07,2030.0,38,2026-01-25,false
+469,992 Michelle Road,LONG BEACH,65138,Condo,for sale,5.0,1.2,,"$2,885,092.58",,24,07/18/2025,1
+470,31894 Lee Landing,anaheim,44542,Condominium,RENTAL,4.0,0.0,823,"$7,191.61",1927.0,3,2024-12-30,False
+471,165 Jimenez Stravenue Apt. 002,FRESNO,96855,Multi-Family,For Sale,0.0,,2164 sqft,2010957.26,1850.0,18,2024-12-13,True
+472,366 Romero Ways Suite 982,Oakland,33808,Condo,sale,,0.0,2494,1937907.28,1950.0,41,2026-05-18,False
+473,175 Matthew Street,oakland,38231,condo,for sale,-1.0,0.0,833,1234368.04,2030.0,30,2026-03-19,True
+474,1034 Harold Forges Suite 795,FRESNO,31372,Multi-Family,Rent,,2.5,1865,1612.08,1923.0,50,10-10-2025,true
+475,87548 Brian Cove Apt. 908,sf,53028,TOWNHOUSE,RENT,-1.0,2.4,2201 sq ft,1780.89,,20,06/11/2025,True
+476,920 Martinez Stravenue,Fresno,01945,SINGLE FAMILY,RENTAL,,0.0,3944,5529.63,,16,01/18/2026,True
+477,11082 Mcdonald Vista,sf,52453,single family,Sale,,2.3,,1448868.06,1940.0,31,2024-12-10,true
+478,101 Kevin Cove Apt. 640,LOS ANGELES,98238,Townhouse,For Rent,-1.0,0.0,,"$1,916.68",1850.0,35,07/15/2024,0
+479,623 Bethany Prairie Apt. 286,Oakland,32892,TOWNHOUSE,sale,,2.0,759,2478328.4,2030.0,6,17-08-2024,True
+480,40790 Little Knolls,san francisco,08069,Town House,rent,3.0,1.8,4214 sq ft,"$6,349.19",2022.0,27,05/30/2025,True
+481,929 Donovan Garden,los angeles,72064,STUDIO,sale,-1.0,0.0,4404,2567378.43,2030.0,35,02/04/2026,False
+482,140 David Cliffs,Sacramento,93599,Single-Family,RENTAL,-1.0,1.8,520 sqft,3245.63,1922.0,22,2024-10-23,True
+483,887 Marissa Mountain,ANAHEIM,55527,studio,SALE,6.0,,3628,2023058.23,1850.0,19,2025-01-16,1
+484,9894 Courtney Stream Suite 702,sf,50721,CONDO,rent,1.0,2.5,2717,5344.37,1913.0,13,01-01-2026,True
+485,2508 Calderon Ville,SAN JOSE,01016,STUDIO,SALE,1.0,1.8,3731 sqft,1047500.18,2030.0,46,15-05-2025,0
+486,17641 Catherine Ford Suite 109,SF,06752,studio,RENTAL,-1.0,1.5,2011,1549.97,1974.0,31,08/13/2024,0
+487,81593 Christopher Field,SAN JOSE,55775,Multi-Family,sale,5.0,2.5,3551,"$1,081,359.45",2024.0,2,25-07-2025,false
+488,070 Susan Crossing,sf,11640,Single-Family,Rental,3.0,2.6,4519,"$5,938",1948.0,9,04/06/2026,False
+489,5689 Warren Fords,LONG BEACH,10218,townhouse,for sale,,0.0,1771,2095305.8,,50,2025-08-12,True
+490,09031 Richardson Underpass,long beach,88112,MULTI FAMILY,for rent,1.0,,1541,4980.85,1906.0,33,07/24/2024,False
+491,55664 Mckinney Walk Suite 434,Los Angeles,02801,TOWNHOUSE,rent,,4.0,2370,"$2,040.74",1850.0,2,19-02-2025,1
+492,7369 Kelly Coves Suite 279,Oakland,68821,SINGLE FAMILY,SALE,4.0,0.0,,"$1,464,650.21",,29,2025-08-11,1
+493,0860 Brown Creek,los angeles,17983,Condominium,For Rent,5.0,3.6,3837 sqft,5842.94,1929.0,31,05-03-2025,1
+494,14388 Malone Summit Apt. 340,Fresno,51318,TOWNHOUSE,RENT,6.0,4.0,4873,"$3,474",1850.0,5,03/28/2025,True
+495,8583 Roy Summit Suite 028,long beach,51915,Studio,Rent,-1.0,2.7,4026,"$7,809.23",1959.0,26,13-10-2025,False
+496,425 Carlson Via,san francisco,93364,CONDO,RENTAL,1.0,,1165 sq ft,"$7,546",2030.0,36,07-06-2026,True
+497,243 Perez Oval,Anaheim,19836,Multi-Family,For Rent,0.0,0.0,4690,"$6,088",2014.0,25,2025-03-22,True
+498,538 Megan Valleys,fresno,13789,Single Family,RENTAL,1.0,0.0,,6754.59,1850.0,16,10/04/2025,false
+499,078 Steven Plains Suite 530,Anaheim,83732,Condo,Rent,-1.0,3.6,,1963.25,,14,06-09-2025,False
+500,764 Daniel Place Apt. 204,SAN DIEGO,92536,single family,SALE,5.0,0.0,,"$1,331,722",2030.0,8,09-05-2025,True

@@ -1,0 +1,24 @@
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+dbt_modules/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# Environment variables & Secrets
+.env
+*.pem
+profiles.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store   

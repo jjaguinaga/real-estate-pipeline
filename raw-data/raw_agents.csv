@@ -1,0 +1,59 @@
+agent_id,first_name,last_name,email,phone,license_number,specialization,city,hire_date,commission_rate,is_active
+1,LAUREN,NGUYEN,carterstephanie@example.net,328-804-0723,ca-86255118,BOTH,SF,11/27/2018,,false
+2,Kimberly,Ferguson,charlesbruce@example.net,,#97181478,Residential,san jose,2018-07-20,0.053,YES
+3,THERESA,BELL,mpotter@example.net,339.762.6000,CA-70561489,RESIDENTIAL,SAN JOSE,18-10-2021,0.039,False
+4,Haley,Brown,hernandezamanda@example.org,+1-756-900-7200,#31716712,rental,San Francisco,2021-03-19,,false
+5,john,clark,frankjohnson@example.org,(869) 967-8491,CA-79648447,Rental,Anaheim,2024-11-15,0.057,True
+6,MORGAN,SMITH,smithdonald@example.org,1831621647,CA-78636441,commercial,la,05/13/2021,,false
+7,Michaela,Morris,tara78@example.com,+1-886-468-4141,,residential,Long Beach,2025-08-21,2.1%,True
+8,cassie,riley,fowlermadeline@example.com,+1-250-899-6141,CA-57900727,COMMERCIAL,anaheim,2021-10-11,,False
+9,Richard,Zavala,jordandaniel@example.com,(204) 942-8110,CA-86812738,BOTH,anaheim,01/01/2025,,True
+10,Ashley,Mclaughlin,jamesray@example.net,683-613-9455,CA-63885345,rental,Los Angeles,2019-09-30,0.024,1
+11,LAURA,MAYS,marierose@example.com,447-317-9144,ca-20496688,COMMERCIAL,SACRAMENTO,2019-12-12,0.026,false
+12,christina,vazquez,mcdaniellinda@example.net,+1-577-626-6869,#40944787,rental,long beach,04/07/2025,0.04,0
+13,erin,smith,rebecca54@example.net,1552172207,CA94551422,COMMERCIAL,Anaheim,2017-04-07,0.021,True
+14,mark,terry,hicksryan@example.org,(907) 196-0100,,both,san francisco,26-03-2021,2.3%,true
+15,William,Holmes,bateslaura@example.net,+1-228-345-4088,CA18357731,LUXURY,anaheim,05-05-2022,0.048,1
+16,AMY,WEST,ggarza@example.com,(217) 348-5457,#55300083,commercial,fresno,2020-05-02,,0
+17,kiara,burke,natkins@example.net,,#79972676,Luxury,LONG BEACH,12/27/2024,,True
+18,Edward,Johnson,allendiaz@example.com,(487) 814-6819,ca-70257212,residential,oakland,09-11-2016,,NO
+19,sharon,herman,montesmicheal@example.net,4024473645,CA-20872006,luxury,LOS ANGELES,21-01-2024,,true
+20,DAWN,LEWIS,knapplisa@example.com,,CA01890246,Residential,Long Beach,2020-06-16,3.2%,0
+21,daniel,hill,kimcochran@example.net,(598) 366-6603,CA-30936611,LUXURY,San Diego,10/15/2017,0.036,1
+22,Andrea,Warren,cassandra89@example.net,+1-224-721-8110,ca-64642837,Residential,SAN JOSE,14-05-2022,0.057,YES
+23,madison,ortiz,tscott@example.net,(013) 408-9144,#17636510,rental,Long Beach,25-01-2021,2.7%,false
+24,justin,stewart,anthony45@example.org,,CA64382930,commercial,ANAHEIM,2023-04-10,,1
+25,peter,arroyo,wbrooks@example.com,1008368403,ca-65785689,Luxury,san francisco,2016-11-03,,True
+26,andrew,mora,akim@example.net,011.743.5543,,Luxury,Sacramento,16-05-2023,0.04,True
+27,CATHERINE,NOLAN,rodneylamb@example.org,098-189-6239,CA82261280,RENTAL,San Diego,02/01/2018,3.8%,0
+28,Hannah,Lee,dsmith@example.net,(977) 877-1094,27400192,Rental,San Francisco,03/25/2024,5.9%,NO
+29,THOMAS,SANFORD,higginssandra@example.net,9321175914,#46754177,Luxury,LONG BEACH,2020-02-25,,False
+30,TAMMY,WILSON,daniel05@example.com,+1-618-739-3478,ca-65180822,Luxury,Long Beach,16-11-2024,0.037,NO
+31,JACK,ANDERSON,ashleyhorne@example.com,+1-325-940-6065,#52199830,BOTH,BAKERSFIELD,29-06-2021,4.3%,False
+32,SHARON,BROOKS,charles50@example.org,9002850072,CA-64214714,commercial,OAKLAND,2024-05-18,0.025,true
+33,Timothy,Santos,rosalesoscar@example.net,137.172.7584,CA52976787,commercial,SAN FRANCISCO,24-07-2024,0.03,False
+34,ERICA,WALTER,samuelaustin@example.net,+1-297-534-7279,#85901486,RESIDENTIAL,Bakersfield,2021-11-08,0.028,0
+35,Jesse,Wright,woodsalexis@example.net,+1-205-376-6529,CA-59277609,RESIDENTIAL,LOS ANGELES,2020-10-11,3.9%,1
+36,matthew,riley,vdavid@example.com,485-376-1036,#31860320,commercial,sacramento,06-10-2025,,NO
+37,wanda,gibson,butlerisaac@example.net,451-556-8295,#50697146,Both,SACRAMENTO,04/15/2017,,YES
+38,christopher,barker,andrea15@example.org,308-130-7688,CA47761475,RENTAL,BAKERSFIELD,06-05-2024,0.046,YES
+39,BRENDA,PEREZ,debrataylor@example.net,+1-615-673-8628,,Luxury,Anaheim,2017-12-09,2.5%,false
+40,DIANE,BROWN,uharris@example.org,1210456543,CA90231653,rental,SAN JOSE,12/09/2016,3.5%,false
+41,Danielle,Arellano,,3092328042,ca-63845174,Both,LOS ANGELES,03/12/2018,,1
+42,Stacey,Knight,phillipstina@example.org,,ca-89070700,COMMERCIAL,Oakland,2024-02-03,,False
+43,KIMBERLY,ABBOTT,moorejared@example.org,+1-204-346-7790,ca-11921551,Luxury,ANAHEIM,03/21/2021,0.026,True
+44,Nicole,Williamson,,013.027.8447,50991012,COMMERCIAL,Anaheim,09-06-2022,,False
+45,carl,conrad,richardkeller@example.net,+1-445-876-6496,CA-04701936,residential,oakland,02/12/2026,0.058,YES
+46,JOSEPH,JENSEN,denise59@example.net,(456) 279-1592,,commercial,SAN JOSE,2026-02-23,0.026,1
+47,BEVERLY,JOHNSON,zguerra@example.org,041-445-4452,,Residential,ANAHEIM,28-07-2021,0.027,True
+48,anthony,sanford,richardmartinez@example.net,,02981945,Commercial,LONG BEACH,2020-03-15,0.025,False
+49,NATALIE,HALE,ybernard@example.org,2199727718,85142970,both,San Jose,10-06-2019,0.031,True
+50,Amber,Fitzgerald,april47@example.com,(024) 423-6212,ca-36332156,COMMERCIAL,long beach,2023-12-12,0.038,YES
+9099,john,clark,frankjohnson@example.org,(869) 967-8491,CA-79648447,Rental,Anaheim,2024-11-15,0.057,True
+9011,AMY,WEST,ggarza@example.com,(217) 348-5457,#55300083,commercial,fresno,2020-05-02,,0
+9077,LAURA,MAYS,marierose@example.com,447-317-9144,ca-20496688,COMMERCIAL,SACRAMENTO,2019-12-12,0.026,false
+9028,kiara,burke,natkins@example.net,,#79972676,Luxury,LONG BEACH,12/27/2024,,True
+9051,mark,terry,hicksryan@example.org,(907) 196-0100,,both,san francisco,26-03-2021,2.3%,true
+9090,erin,smith,rebecca54@example.net,1552172207,CA94551422,COMMERCIAL,Anaheim,2017-04-07,0.021,True
+9003,erin,smith,rebecca54@example.net,1552172207,CA94551422,COMMERCIAL,Anaheim,2017-04-07,0.021,True
+9026,Michaela,Morris,tara78@example.com,+1-886-468-4141,,residential,Long Beach,2025-08-21,2.1%,True

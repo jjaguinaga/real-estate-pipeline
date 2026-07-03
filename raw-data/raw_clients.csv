@@ -1,0 +1,421 @@
+client_id,first_name,last_name,email,phone,client_type,preferred_city,budget,signup_date,is_active
+1,jasmine,carter,,(938) 196-5796,RENTER,sf,4794490.87,08-02-2024,0
+2,AUTUMN,ROBBINS,jasonhensley@example.org,(116) 051-3297,renter,San Diego,,2025-09-05,False
+3,kevin,hernandez,john65@example.org,388-304-2159,Buyer,ANAHEIM,4006782.93,03/26/2026,0
+4,Lonnie,Howell,prasmussen@example.org,123-533-7207,renter,BAKERSFIELD,1253500.73,22-08-2025,False
+5,JUSTIN,ABBOTT,jenniferanderson@example.com,(941) 366-6039,both,Fresno,1466251.69,29-10-2024,1
+6,sean,newman,lisa08@example.net,5223229950,Renter,Los Angeles,990708.96,2024-01-20,1
+7,Michele,James,jamesduncan@example.com,+1-368-397-3604,SELLER,LOS ANGELES,4396555.75,28-07-2024,True
+8,James,Ward,adam29@example.com,725-974-9022,both,San Diego,3882990.36,09-01-2024,False
+9,ALYSSA,GARZA,,9014476388,buyer,OAKLAND,3689977.32,16-12-2023,False
+10,KENNETH,RAMIREZ,denisejohnson@example.org,(662) 486-2123,BUYER,sacramento,3519420.91,31-12-2025,false
+11,Matthew,Ballard,graykevin@example.net,226.485.2862,seller,la,,13-02-2024,0
+12,JACQUELINE,JONES,thomas04@example.org,(695) 859-8998,both,la,643023.63,2025-08-14,True
+13,judy,singh,alexanderstephanie@example.com,(476) 793-5436,both,los angeles,4052666.38,04/02/2026,false
+14,AMANDA,KING,mitchell10@example.org,8449943105,BOTH,san jose,"$1,387,724",22-12-2025,True
+15,william,bell,dominguezsavannah@example.com,934-958-7974,renter,San Francisco,,2023-11-06,True
+16,Victoria,Beck,joshuaparker@example.org,+1-460-421-4300,seller,OAKLAND,,2024-01-09,1
+17,gabriel,allen,tarajohnson@example.org,(991) 119-7014,seller,BAKERSFIELD,"$3,708,192.80",05/05/2025,False
+18,robert,robles,charles44@example.net,,renter,Bakersfield,3831676.13,11/16/2025,false
+19,JESSICA,JACKSON,melanieblevins@example.com,064.080.6887,Both,Sacramento,4397106.87,26-01-2025,True
+20,Nathan,Alvarez,riverajeffrey@example.com,007-158-0566,Seller,Long Beach,,09-09-2023,0
+21,john,foley,grant92@example.net,333-034-5143,Renter,San Francisco,,15-04-2024,false
+22,Rebecca,Allen,veronica98@example.com,+1-298-294-0148,renter,BAKERSFIELD,"$4,474,857",10-03-2024,true
+23,Melanie,Martinez,christinestewart@example.com,+1-976-276-3346,buyer,long beach,"$870,266.08",09/04/2025,False
+24,mario,bowers,mmoore@example.net,501.478.4512,Buyer,san diego,"$499,171",04/17/2025,true
+25,TRACY,MOORE,elizabethcook@example.org,,Renter,sacramento,"$3,943,820",11/15/2024,False
+26,Bryan,Jackson,usandoval@example.com,700-443-4168,Renter,san jose,,11-04-2025,True
+27,Danielle,Garner,johnflowers@example.net,(052) 084-5019,Seller,OAKLAND,2528758.54,04/27/2024,false
+28,Alexa,Acevedo,denisecooper@example.org,(467) 229-1128,Both,SAN DIEGO,"$3,160,260.97",07-10-2025,false
+29,tracie,hernandez,jadethompson@example.com,,Both,la,4496101.47,11/12/2023,false
+30,Anna,Smith,ramosanna@example.com,789-064-1108,both,OAKLAND,"$550,958",2025-09-23,True
+31,THOMAS,SUTTON,dallen@example.org,272-188-3274,Both,san francisco,,05/06/2026,true
+32,Dawn,Hardy,deannacosta@example.com,+1-158-165-7134,Buyer,SAN JOSE,"$4,553,184.52",2026-06-05,1
+33,andrea,carr,kimberlymitchell@example.org,143-059-3344,seller,san jose,,01/06/2026,True
+34,eric,brown,,9338018438,seller,SACRAMENTO,2880975.6,06/10/2025,true
+35,tabitha,smith,brian33@example.org,+1-150-666-2682,Renter,LOS ANGELES,4091755.75,08/20/2024,true
+36,ROBIN,LARSON,rubioandrew@example.com,+1-648-818-0280,RENTER,fresno,"$374,952",05-02-2026,False
+37,connie,aguirre,johnwatkins@example.net,320.361.8043,SELLER,OAKLAND,3179158.15,2024-02-09,True
+38,mary,salazar,michelle34@example.net,,Renter,Bakersfield,"$3,541,783.41",2025-03-01,False
+39,sean,patrick,robert04@example.com,426.975.9666,RENTER,fresno,"$2,254,084.08",04/12/2024,true
+40,MADISON,WHITE,,+1-771-448-2791,BOTH,LOS ANGELES,3536248.52,02/26/2024,true
+41,Luis,Mclaughlin,charris@example.org,,Renter,LONG BEACH,2602218.49,01/27/2026,true
+42,Melissa,Moore,matthewschristopher@example.net,(559) 181-8398,Renter,SF,3162168.54,2024-04-10,0
+43,John,Harper,michael17@example.org,723-714-8653,Seller,los angeles,4642833.15,2024-03-29,false
+44,Jesse,Fry,gtate@example.net,,RENTER,San Diego,"$4,485,011.40",07/08/2024,0
+45,JAMES,COOPER,llam@example.org,309.699.4427,Both,fresno,289054.09,31-07-2024,1
+46,TAMMY,CARTER,wilsontimothy@example.org,,Buyer,fresno,3124413.1,2025-01-05,True
+47,MICHELLE,HOFFMAN,anelson@example.com,+1-469-933-2631,SELLER,SAN JOSE,2613506.71,06/01/2025,0
+48,Bradley,Kelly,bgrant@example.org,+1-066-860-8228,SELLER,Oakland,1650191.3,2026-05-29,true
+49,kevin,hammond,morgan98@example.com,835-334-2832,RENTER,Long Beach,2632402.78,19-01-2025,True
+50,DONNA,JOHNSTON,dennissteven@example.org,130.840.8562,Renter,SAN FRANCISCO,2813012.92,07/13/2024,true
+51,samantha,mendoza,bradysanchez@example.net,486-352-5052,Seller,LOS ANGELES,"$3,449,257.73",11-02-2025,True
+52,mary,glenn,aroberts@example.org,784.520.4727,BUYER,SAN JOSE,,06/28/2025,True
+53,philip,white,walkerjoseph@example.org,6167363682,seller,SAN FRANCISCO,918096.17,2024-04-15,0
+54,PATRICIA,HUMPHREY,morrisbelinda@example.com,3259691724,BUYER,LONG BEACH,257359.11,12-01-2026,True
+55,Teresa,Perez,cynthiafriedman@example.com,422.324.8229,SELLER,SAN DIEGO,313710.29,31-03-2025,0
+56,PEDRO,ROBINSON,nicolegutierrez@example.net,514-139-1798,SELLER,Oakland,"$2,129,583.16",06/14/2025,True
+57,Paul,Summers,srobinson@example.net,,RENTER,Anaheim,2888822.92,10/19/2025,False
+58,Susan,Smith,johnsonlaura@example.net,081-466-6622,seller,san jose,2935426.56,2024-11-15,True
+59,shannon,shepard,karen06@example.com,,Both,san jose,"$2,118,543.68",10/11/2025,1
+60,Tammy,Rivera,gsolis@example.com,270.728.6657,buyer,San Diego,,2025-11-22,0
+61,Nicole,Mcguire,tylerblevins@example.org,2240083927,RENTER,la,"$909,362",13-10-2024,true
+62,dawn,lopez,suttonmichael@example.net,383-323-6771,seller,SAN FRANCISCO,428250.77,2026-03-16,1
+63,JODY,ROBERTS,luke88@example.net,,RENTER,OAKLAND,4517720.71,11/21/2025,True
+64,Jacob,Simmons,coltonhebert@example.com,270-298-8715,buyer,SAN FRANCISCO,3603085.27,10/29/2025,0
+65,CHELSEA,HERNANDEZ,cantuchase@example.net,+1-218-452-8451,Buyer,san francisco,"$2,498,172.09",2024-12-28,0
+66,JAMES,WILLIAMS,annamorris@example.org,(478) 426-2982,RENTER,san diego,"$2,160,809",06-06-2025,0
+67,STEPHANIE,JACKSON,markhardy@example.com,+1-474-026-1426,seller,Los Angeles,1917105.07,2024-08-27,false
+68,Marcus,Harper,bhernandez@example.com,4477324176,renter,la,2378900.52,2024-02-18,0
+69,MARY,JAMES,nataliesmith@example.org,416.170.0415,Seller,long beach,1542580.09,2024-01-17,False
+70,danielle,page,dgonzalez@example.net,9683325656,renter,Oakland,3955962.89,13-07-2023,False
+71,JESSICA,FROST,sandrarodriguez@example.net,+1-228-327-3726,Both,SAN FRANCISCO,,2024-08-25,1
+72,RUSSELL,SANCHEZ,reednancy@example.net,,Both,Los Angeles,"$4,889,907",08/10/2023,false
+73,JACOB,LOPEZ,leahcarroll@example.org,+1-743-745-4455,Both,san jose,154071.07,11/18/2023,True
+74,edwin,yang,chelsey86@example.com,+1-913-591-2836,Both,oakland,3133547.29,2024-10-14,0
+75,Carlos,Vargas,,+1-856-730-0015,both,Sacramento,3273800.48,2024-01-30,false
+76,ROBERT,LYNCH,,5612620238,BUYER,san diego,1813773.07,03/03/2025,True
+77,ELIZABETH,WILSON,tuckerashley@example.net,+1-733-958-6366,seller,San Diego,,11/06/2024,true
+78,Trevor,Conley,probinson@example.com,+1-470-734-7500,RENTER,Fresno,"$4,993,139.65",2026-01-23,False
+79,Justin,James,osoto@example.com,9682386391,BUYER,Sacramento,4361727.87,04-11-2025,false
+80,jason,brown,taylor05@example.com,,Both,Los Angeles,3715241.63,26-02-2025,false
+81,Leslie,Fisher,santosderrick@example.org,(818) 484-7024,Both,anaheim,,09/04/2025,False
+82,Gary,Martin,gallagherrobert@example.org,9109106082,seller,SAN DIEGO,"$3,106,584",10-05-2024,true
+83,clarence,humphrey,destiny23@example.net,2721008887,RENTER,anaheim,"$976,920",11/24/2025,false
+84,Dennis,Ward,beancheryl@example.org,491-831-7179,both,sf,"$2,963,505.87",2023-11-30,True
+85,CHRISTINA,ELLIOTT,mcampbell@example.com,,seller,Sacramento,2407617.82,26-12-2023,0
+86,Nicholas,Hodges,laurajohnson@example.org,996.688.6554,BOTH,la,"$1,209,775",2025-04-26,false
+87,Joanna,Black,gutierrezstacy@example.com,385-255-0969,seller,Bakersfield,,10/08/2025,1
+88,ARTHUR,TAYLOR,ericksonnathan@example.net,096.023.4292,seller,anaheim,4803164.13,07/16/2023,0
+89,Natalie,Bailey,daniel70@example.com,(086) 785-3996,BUYER,Oakland,2535691.6,2025-03-31,True
+90,LAURIE,GARCIA,,0951299541,SELLER,SF,"$3,902,758",04/04/2024,True
+91,SANDRA,SMITH,wallaceamy@example.org,177.898.6532,RENTER,san francisco,"$1,966,595",09/16/2023,false
+92,BRETT,HENDRICKS,gayashley@example.org,,Buyer,SAN FRANCISCO,3134833.17,09-03-2024,True
+93,DAVID,LEWIS,gardneralexis@example.net,,both,anaheim,,05-09-2024,false
+94,JEREMIAH,MANNING,uschmidt@example.net,930.937.6434,renter,LONG BEACH,,07/14/2025,0
+95,CAROLYN,HAWKINS,rvillarreal@example.org,+1-561-936-5166,Seller,LOS ANGELES,972959.05,11/16/2025,False
+96,Michael,Malone,christopher07@example.net,,Both,SAN DIEGO,2166231.22,12/03/2023,false
+97,michelle,willis,wernererica@example.com,+1-154-656-7260,Buyer,FRESNO,430849.15,2023-08-25,True
+98,joel,rose,robinsonlori@example.net,5060953330,buyer,sf,783549.64,12-03-2025,True
+99,LEAH,HUMPHREY,uglenn@example.com,,Buyer,Bakersfield,3777987.96,18-03-2024,1
+100,Christine,Nash,michaelwood@example.net,285-243-2896,BOTH,SAN DIEGO,"$1,499,072.16",2026-05-14,1
+101,mark,bowman,michele49@example.org,+1-611-565-0393,Seller,Los Angeles,1875354.35,16-10-2024,0
+102,LISA,MARTIN,wallkristi@example.net,775.148.5565,BOTH,Long Beach,,02/06/2025,True
+103,Robert,Harvey,gwaters@example.net,(931) 056-0031,buyer,sf,3336982.73,23-07-2023,False
+104,MICHAEL,BOWMAN,tyler33@example.net,(959) 811-1629,Seller,San Francisco,,01-03-2026,False
+105,ANDREW,MARSH,joel05@example.org,0076987200,renter,san diego,,2026-03-06,False
+106,Charles,Curtis,,7383516237,BOTH,SAN FRANCISCO,"$4,877,599.00",2024-12-15,False
+107,robert,patton,wpeterson@example.net,225-703-8192,BUYER,San Jose,1102544.89,2024-06-04,True
+108,Shannon,Duffy,powerschristopher@example.net,(784) 770-2445,renter,los angeles,,07-11-2023,True
+109,travis,meyers,christinabell@example.com,8973397261,buyer,San Francisco,855798.12,06/01/2026,True
+110,Dalton,Wilson,timothy96@example.org,177.718.7122,RENTER,la,,16-09-2025,True
+111,james,stanley,jerryfowler@example.org,+1-832-231-1826,SELLER,Los Angeles,,23-12-2025,True
+112,Bobby,Harris,hoganjenny@example.com,(831) 527-6242,both,San Francisco,4134483.82,25-04-2026,true
+113,madison,vasquez,garciaderek@example.net,084-900-3364,SELLER,SAN DIEGO,"$3,757,421.27",18-09-2025,True
+114,Cindy,Daniels,aharrison@example.com,464-874-0222,RENTER,sacramento,4142564.06,11/07/2023,False
+115,Nicholas,Osborne,kellycharlotte@example.org,343.633.5691,Seller,Oakland,3065137.87,09/23/2024,true
+116,robert,lowe,swilson@example.net,,Buyer,Anaheim,3104150.3,2025-03-20,True
+117,john,frazier,scott70@example.org,+1-463-907-6600,BUYER,San Jose,"$2,476,341",20-04-2025,0
+118,Matthew,Velazquez,ramirezdebra@example.net,932.957.9119,SELLER,Anaheim,"$2,794,562",11/24/2023,true
+119,LISA,STONE,lcooper@example.org,,Seller,Anaheim,1926498.98,08/07/2023,0
+120,Joseph,Lewis,meagancherry@example.com,2138143420,both,ANAHEIM,"$3,910,330.25",17-05-2024,True
+121,David,Martin,leecolton@example.com,3677994296,SELLER,ANAHEIM,"$153,311.59",2024-08-30,False
+122,samuel,oconnell,coopernicholas@example.org,4743780893,Both,long beach,"$1,352,635.95",03/06/2026,True
+123,CINDY,PEREZ,merceranthony@example.net,,Renter,San Diego,,06/01/2026,false
+124,Kathryn,Robinson,andrewfrank@example.net,3543675227,both,OAKLAND,3506347.22,08-01-2024,0
+125,brandon,martinez,rwinters@example.org,,buyer,fresno,,04/02/2026,True
+126,Scott,Perry,,,buyer,SAN JOSE,"$264,751.19",03-07-2024,False
+127,sara,sanchez,vcurtis@example.org,,renter,Long Beach,"$3,874,811",01/05/2026,True
+128,Michael,Hoover,reevesholly@example.org,270.405.3244,renter,Fresno,"$2,143,101.96",09/24/2025,true
+129,Jennifer,Ortiz,stacy30@example.com,842-669-8919,renter,long beach,3730288.48,16-12-2025,False
+130,Kenneth,Cantu,rking@example.com,+1-454-770-5748,BUYER,FRESNO,"$4,530,777",03/07/2025,0
+131,susan,downs,christian93@example.net,065.199.8548,BUYER,SAN DIEGO,4644163.63,25-04-2024,False
+132,BENJAMIN,PEARSON,greencarol@example.net,4824095199,buyer,fresno,,21-09-2023,true
+133,Abigail,Wilson,robinsonrussell@example.org,294.733.8608,BUYER,BAKERSFIELD,,09/21/2024,True
+134,JOHN,FREEMAN,emilyfoster@example.com,286.457.9442,buyer,San Francisco,"$1,947,909.22",2024-03-18,True
+135,tiffany,daniels,nicholasward@example.org,,buyer,SAN DIEGO,"$208,697.85",01-05-2024,False
+136,jay,herring,anoble@example.com,(400) 390-5930,Both,Oakland,"$3,453,588",2024-02-25,False
+137,Edward,Miller,heather99@example.net,,seller,anaheim,4684895.64,15-01-2024,False
+138,james,simpson,latoyahinton@example.com,796.437.9601,buyer,SAN DIEGO,"$945,038",12/12/2025,False
+139,Julie,Rosario,tammycastaneda@example.net,,Renter,San Jose,"$4,137,293.99",2026-03-28,True
+140,grace,peterson,lshepherd@example.net,561.587.7208,buyer,San Francisco,,16-07-2023,true
+141,TAMARA,ANDERSON,eschwartz@example.org,993.035.1116,both,Fresno,"$3,452,652",09-04-2025,0
+142,john,foster,kellysmith@example.net,800.122.9536,renter,San Francisco,,24-02-2025,1
+143,Jessica,Sanchez,,(695) 486-7394,seller,Bakersfield,,03/02/2025,True
+144,connie,wheeler,taylorbrian@example.com,(044) 182-7330,SELLER,FRESNO,"$801,641.11",01/27/2024,1
+145,Kevin,Price,myerslaura@example.org,157-342-1854,BUYER,ANAHEIM,4209402.65,2026-01-25,true
+146,alexandra,bishop,susan29@example.com,,buyer,oakland,405363.75,14-10-2023,True
+147,PHILLIP,ANDERSON,cooperelizabeth@example.com,(993) 450-6467,buyer,Long Beach,"$870,908.84",2024-11-15,True
+148,Larry,Mccormick,reyeskenneth@example.com,304.650.8046,RENTER,Sacramento,657461.76,12/28/2024,True
+149,Victoria,Moreno,jonathonwilliams@example.net,(123) 292-4610,Buyer,Long Beach,1720973.38,2025-01-21,False
+150,SANDRA,COX,lanehannah@example.org,3957946980,Buyer,Long Beach,4522820.19,2026-01-19,False
+151,TERESA,WILLIAMS,berryshane@example.net,894-630-7629,Renter,San Jose,,03/24/2024,False
+152,kenneth,taylor,colemanjanet@example.com,661-101-5875,buyer,LOS ANGELES,,2026-02-04,0
+153,Timothy,Mills,rileyangelica@example.com,352.140.3820,Renter,SACRAMENTO,"$2,598,426.11",25-09-2025,true
+154,AMY,RIVERA,kevin27@example.com,3051098719,BUYER,sacramento,"$4,098,859",22-08-2023,False
+155,Dana,Gonzales,timothy04@example.net,,BOTH,Fresno,"$4,122,307.05",15-05-2026,True
+156,alexandra,franco,robertcooper@example.com,(957) 836-6687,Both,Oakland,"$308,223",2023-09-17,false
+157,selena,richards,amy94@example.com,,RENTER,LOS ANGELES,,07/01/2024,True
+158,Adam,Shaffer,,,seller,oakland,3316543.78,26-08-2025,0
+159,rodney,cochran,patricia28@example.net,692-279-5389,both,SACRAMENTO,"$1,896,180.35",2025-05-06,True
+160,JAMES,FISHER,annawu@example.com,7150384481,SELLER,oakland,1397443.66,05/01/2024,true
+161,APRIL,NORMAN,ronaldscott@example.net,+1-361-304-3788,Buyer,Sacramento,"$3,814,865.22",2024-11-13,1
+162,Darryl,Curry,,(242) 523-8113,seller,SF,3585360.35,01-04-2025,1
+163,Thomas,Alexander,sdonovan@example.org,017.535.1699,Buyer,San Francisco,"$4,667,838.87",08/18/2023,false
+164,Heather,Hunt,benjamin93@example.org,126-090-5188,SELLER,anaheim,"$1,459,812.91",2026-01-19,true
+165,WESLEY,PRINCE,kelly22@example.com,565.430.6095,renter,san francisco,"$2,819,717",05/06/2025,1
+166,Gary,Boyd,wmartinez@example.net,108.669.8424,both,Long Beach,3024060.12,27-08-2023,true
+167,John,Bradford,deborahhenry@example.org,,SELLER,sacramento,"$2,966,981.98",20-11-2025,False
+168,traci,fox,carolhudson@example.net,+1-689-374-0969,BOTH,San Francisco,"$248,819",03-09-2025,false
+169,linda,brown,glee@example.org,721-442-6836,SELLER,sacramento,531475.3,05/16/2026,False
+170,Samuel,Henderson,whitakerjohn@example.net,,Renter,Bakersfield,,02/27/2026,false
+171,ELIZABETH,HOBBS,dhall@example.com,9996446502,RENTER,san diego,4027209.67,02-10-2025,False
+172,vickie,young,,(620) 551-5467,Both,san jose,,2024-06-29,True
+173,MICHELLE,LE,derek91@example.net,370-088-9372,seller,sacramento,"$2,425,770.92",11-09-2024,false
+174,vincent,fernandez,valdezheather@example.org,+1-270-988-6918,BOTH,Anaheim,"$2,188,966.06",04-10-2023,True
+175,Brenda,Carter,tyler84@example.net,768.091.5886,BUYER,Oakland,"$3,076,085.22",02-07-2024,True
+176,PAULA,BENNETT,abigail02@example.com,,BUYER,san diego,2718983.19,27-08-2024,False
+177,Lance,Collins,htaylor@example.org,(448) 543-1786,SELLER,SACRAMENTO,"$302,423",2023-07-20,true
+178,THERESA,LEWIS,garrett16@example.net,8892143436,Both,San Diego,3898278.77,10/28/2024,0
+179,KENNETH,ESTRADA,rmartinez@example.net,(004) 207-7881,buyer,SACRAMENTO,,2025-10-20,false
+180,edward,lopez,richardscassie@example.org,,Both,long beach,,2026-06-21,True
+181,Scott,Palmer,joshua68@example.org,,Buyer,Long Beach,"$3,531,890.70",13-06-2026,false
+182,denise,johnson,ymoore@example.net,+1-607-414-9282,buyer,los angeles,,12/14/2024,False
+183,ELIZABETH,GARCIA,coconnor@example.net,(825) 614-2601,Both,LONG BEACH,288224.75,06/06/2026,False
+184,Jeffrey,Webster,davidrodriguez@example.org,5087516180,SELLER,sacramento,,01/04/2026,true
+185,dawn,pittman,cynthiafitzgerald@example.com,(721) 807-6354,renter,san jose,,09/28/2025,False
+186,CRYSTAL,VASQUEZ,kevin43@example.com,9192404665,buyer,LOS ANGELES,"$2,172,480",02/11/2025,True
+187,MEGAN,FIGUEROA,marshallcory@example.com,,Renter,SAN JOSE,"$1,887,550.67",10-02-2024,0
+188,Natalie,Carroll,richard64@example.org,399-697-9123,RENTER,San Jose,,2026-01-08,True
+189,brianna,blevins,kimorozco@example.org,757.582.1296,RENTER,SAN FRANCISCO,1268822.05,2023-08-30,False
+190,evan,hall,alexandria41@example.com,024-726-7733,Both,Fresno,1765108.78,04/20/2026,False
+191,Sara,Montgomery,,+1-451-166-2349,BOTH,Oakland,"$2,141,620.78",2026-03-12,False
+192,Anthony,Simpson,myersshelly@example.com,1633900689,Seller,sacramento,2107364.41,08-05-2026,1
+193,YVONNE,HARRIS,karenprince@example.com,6075301571,BOTH,ANAHEIM,2466155.47,04/01/2024,False
+194,catherine,meadows,andrew06@example.net,(662) 361-9622,Seller,San Francisco,"$2,663,172",03/24/2026,True
+195,Amanda,Henderson,gabriel36@example.net,892.349.5099,renter,fresno,,01-11-2023,1
+196,TASHA,GARNER,hgreen@example.org,(573) 007-2405,BUYER,Bakersfield,,2025-12-31,1
+197,Jose,Curtis,emily99@example.net,,both,los angeles,2959231.88,2026-06-06,True
+198,NICOLE,HERNANDEZ,wadejessica@example.net,445.372.5109,buyer,SAN JOSE,3476797.09,28-12-2024,true
+199,Andrew,Jenkins,jeremygonzalez@example.net,(367) 492-0913,SELLER,Los Angeles,,02/01/2026,false
+200,daniel,ortega,woodwardthomas@example.net,7290003031,Seller,BAKERSFIELD,4123413.39,31-08-2025,True
+201,Joseph,Montgomery,traceynelson@example.com,401-846-5086,both,san francisco,"$2,222,576.42",2025-10-17,true
+202,christina,simpson,robertsonmarcus@example.com,,BOTH,SAN JOSE,"$2,799,092.77",10/18/2024,false
+203,BENJAMIN,MARTINEZ,patrick56@example.org,992-984-7246,both,san diego,1329262.15,2025-07-04,true
+204,Amy,Long,marshalljason@example.org,+1-424-339-9024,BUYER,FRESNO,3351571.64,2025-11-25,true
+205,Sarah,Vincent,jose51@example.net,,Buyer,los angeles,"$4,871,275.43",02/04/2024,true
+206,Steven,Johnson,fberry@example.com,,both,BAKERSFIELD,,2026-01-11,true
+207,TIMOTHY,PERRY,pcastillo@example.net,5360390049,seller,los angeles,1917949.73,02-11-2025,False
+208,TROY,DAVIS,jacqueline47@example.org,8086764276,renter,long beach,"$3,955,122",09/10/2023,0
+209,EMILY,HAWKINS,kimberlytapia@example.org,917.025.3840,renter,LOS ANGELES,"$856,155.31",26-07-2025,True
+210,Sarah,Moon,patriciajones@example.com,+1-311-264-0457,BUYER,anaheim,"$2,548,555",10/08/2025,0
+211,Thomas,Johnson,jpark@example.org,0576763460,buyer,SACRAMENTO,1694072.06,2023-10-30,0
+212,david,forbes,vmorales@example.org,(804) 249-8765,BUYER,oakland,342569.67,2025-12-02,True
+213,denise,daniel,wtaylor@example.org,+1-731-185-0607,BUYER,los angeles,"$1,106,658.87",04/01/2026,1
+214,kelly,garza,beth61@example.org,525-855-6895,Both,Anaheim,2747442.61,11/01/2024,1
+215,Monica,Luna,rshort@example.net,3966944690,seller,BAKERSFIELD,2634487.64,12/07/2025,1
+216,dawn,fisher,rogerpitts@example.org,,SELLER,Oakland,"$3,359,565.33",2024-12-24,True
+217,MICHAEL,HUYNH,,737.105.6836,RENTER,anaheim,"$1,552,549",2023-10-16,1
+218,nancy,bailey,greencraig@example.org,605-163-7828,buyer,Long Beach,"$4,452,658.86",20-06-2024,False
+219,GREGORY,LUTZ,maddentimothy@example.com,,seller,Los Angeles,"$3,315,261.09",19-03-2026,False
+220,MARY,MCMAHON,danielhull@example.net,(156) 068-3167,BOTH,SAN DIEGO,"$4,735,477.09",08/17/2023,False
+221,PETER,MEJIA,drichards@example.net,,renter,los angeles,"$807,109",2025-01-21,true
+222,Jonathan,Velasquez,pcox@example.org,+1-974-288-2328,SELLER,San Diego,3878799.75,2025-02-22,True
+223,nicholas,carlson,janetfrench@example.org,670-398-6470,both,San Jose,1583333.98,07/31/2024,True
+224,james,smith,juliagraham@example.com,+1-662-964-7167,seller,ANAHEIM,3806597.67,06/19/2026,0
+225,Tyler,Hall,rodriguezbill@example.com,7303881460,BOTH,SAN JOSE,2325997.21,2025-12-05,True
+226,MICHAEL,BAILEY,gomezangela@example.com,,seller,los angeles,3299402.64,05/05/2024,false
+227,jamie,colon,htran@example.org,(737) 355-6867,BOTH,sacramento,1739030.53,2026-05-13,False
+228,GREGORY,STEWART,bwall@example.com,712.636.2749,buyer,OAKLAND,484333.91,02/21/2026,False
+229,LAURA,BEAN,erinboyd@example.com,(604) 038-0219,Both,SF,443389.58,20-03-2025,False
+230,linda,pearson,,(105) 620-6162,buyer,fresno,,05/10/2024,True
+231,kelli,hall,,,seller,Los Angeles,274278.04,2025-03-25,False
+232,Valerie,Ferguson,rdorsey@example.net,(594) 768-7902,BOTH,ANAHEIM,"$2,379,855",2025-06-25,0
+233,VICTOR,JONES,shannonharding@example.com,(680) 918-9916,BOTH,san jose,,20-03-2025,True
+234,KAREN,MEDINA,alexandragonzalez@example.org,706.871.3118,Seller,anaheim,3924519.66,2024-02-12,1
+235,peter,thompson,danagarcia@example.org,082-050-8092,SELLER,Long Beach,3500633.67,2023-12-19,False
+236,gavin,moore,msanders@example.net,4454098494,Seller,Anaheim,1336578.88,04/29/2026,true
+237,steven,alvarado,,+1-943-808-1628,both,la,,09/25/2023,true
+238,yolanda,chambers,sophiachapman@example.org,452.437.6910,Buyer,SAN FRANCISCO,2913930.9,25-04-2025,true
+239,Dawn,Nguyen,tim82@example.net,+1-972-097-6147,RENTER,SACRAMENTO,3384613.93,03/14/2024,1
+240,DIANE,STEVENS,martinbush@example.net,+1-708-415-7442,BUYER,Long Beach,,2024-04-21,0
+241,natalie,avila,xrobles@example.org,+1-671-434-9873,Buyer,San Diego,,01/20/2026,True
+242,BRYAN,SMITH,lindalucas@example.net,,BOTH,SAN DIEGO,"$4,727,110",03/01/2025,1
+243,SAMANTHA,TAYLOR,michael23@example.org,9732688850,renter,fresno,4832393.28,11-05-2025,True
+244,jennifer,ramirez,erikaray@example.net,(585) 420-4092,SELLER,Fresno,"$1,209,269",07-04-2024,True
+245,sandra,davidson,herrerahannah@example.net,(656) 901-6155,buyer,San Jose,,21-05-2024,false
+246,joshua,martin,,+1-010-356-6881,BUYER,san francisco,"$2,582,432.26",17-07-2023,true
+247,Charles,Graham,torreskimberly@example.com,728.341.8208,Renter,los angeles,"$1,409,197",27-12-2025,false
+248,Lori,Jordan,jsnow@example.com,822.597.4178,Both,SAN DIEGO,,2024-07-31,True
+249,JOSEPH,SPARKS,eric31@example.org,,Renter,san francisco,,02-04-2026,false
+250,Austin,Rogers,carrollanthony@example.com,3779528422,Seller,Sacramento,1617393.58,02-08-2024,True
+251,marcus,holloway,whitakerjeffrey@example.org,,Buyer,Oakland,,25-08-2025,true
+252,ANA,MILLS,thomashahn@example.net,584.479.4695,SELLER,sf,"$434,143",2024-07-15,False
+253,Chad,Flowers,tyoung@example.org,406-854-2579,both,FRESNO,2237281.2,15-08-2023,0
+254,kayla,glover,marklynch@example.org,1821770280,Both,San Jose,,2024-10-06,0
+255,Laura,Hernandez,stephensonsuzanne@example.org,5231262343,SELLER,LONG BEACH,"$2,145,781",11/04/2023,True
+256,jacqueline,mitchell,brettwilkinson@example.com,035.921.0061,both,SF,4222932.14,01-01-2026,True
+257,mark,orr,cschneider@example.com,+1-635-529-2338,Renter,SAN DIEGO,3676876.83,08/19/2024,1
+258,Anna,Davis,iansoto@example.org,827.088.9539,RENTER,sf,"$2,110,399.37",26-02-2024,1
+259,Brittney,Bailey,morrisangela@example.net,+1-349-811-2674,SELLER,fresno,2811885.4,02/16/2024,1
+260,BRITTANY,TREVINO,franklinwilliam@example.org,655-138-1140,Seller,FRESNO,"$2,995,240",2025-03-19,true
+261,CARRIE,TRAVIS,lovejennifer@example.net,+1-519-752-3383,Both,SAN DIEGO,3558829.67,05-06-2026,true
+262,Jesse,Barton,fbaker@example.com,+1-950-527-1866,both,Los Angeles,1698916.63,10-07-2023,False
+263,Dawn,Moore,twilson@example.org,+1-201-098-8618,both,oakland,3837937.76,03/19/2026,True
+264,Joseph,Jones,jeffrey42@example.net,,Seller,la,"$1,188,337.85",2024-05-29,false
+265,brittney,lopez,rcook@example.net,619.239.9328,BUYER,ANAHEIM,"$141,950.62",15-12-2025,False
+266,Angelica,Byrd,ronald81@example.net,4883916236,Seller,Long Beach,,09/24/2024,0
+267,LAWRENCE,BARRY,erin63@example.com,969.344.2284,seller,long beach,"$3,857,579.84",2026-05-08,false
+268,Paige,Carpenter,xdrake@example.net,910-169-4924,Renter,SAN DIEGO,,2024-12-16,1
+269,Nichole,Lopez,debrahicks@example.net,366.777.2409,both,Oakland,"$4,446,080.24",24-01-2025,0
+270,sean,best,nicholsonjanet@example.net,(347) 889-1209,Renter,OAKLAND,"$887,458",2024-07-31,false
+271,BLAKE,BOYD,vegajames@example.org,2483862677,BUYER,SAN JOSE,3787941.62,20-04-2024,False
+272,stephen,wolfe,patriciaclark@example.org,+1-334-668-3843,Seller,sacramento,"$3,597,344",08/07/2025,true
+273,APRIL,CROSS,llester@example.net,+1-390-772-0845,renter,sf,3859370.16,12/08/2024,0
+274,Kenneth,Jones,zandrews@example.com,+1-104-939-6928,both,Los Angeles,"$4,616,722",06/10/2026,False
+275,MEGAN,GOMEZ,,+1-871-662-8289,Renter,los angeles,"$820,734.29",2026-04-09,False
+276,Kristin,Welch,scott06@example.com,(353) 437-1612,both,san francisco,,18-06-2026,0
+277,kimberly,ferrell,kimberlybrown@example.net,344.172.5852,seller,oakland,"$1,987,006.05",07-06-2024,false
+278,TRACEY,BALDWIN,sbell@example.com,,renter,San Jose,"$370,881.32",09/06/2023,False
+279,sean,lindsey,robertmcconnell@example.com,4746879877,renter,San Francisco,2863108.21,2024-05-16,False
+280,Rebekah,Mills,watkinscatherine@example.net,147.412.1245,Renter,Los Angeles,2996405.98,11/16/2025,false
+281,leonard,rose,shannon35@example.org,+1-169-263-9146,Buyer,ANAHEIM,4660494.63,05/09/2026,False
+282,victoria,soto,rodriguezjohn@example.com,+1-764-246-9215,buyer,sacramento,4809070.65,2026-04-19,0
+283,Rachel,Ortega,janet39@example.org,,renter,Anaheim,"$4,350,673.16",01/10/2025,True
+284,Jeanne,Sharp,rosevincent@example.org,+1-074-343-4439,RENTER,San Francisco,,14-04-2024,False
+285,KATHY,THOMPSON,ericalvarado@example.net,+1-714-722-1670,Buyer,SAN JOSE,"$1,090,135",03/09/2026,0
+286,benjamin,harrison,pricechristina@example.net,+1-879-224-5580,seller,San Diego,1408870.34,12/22/2025,True
+287,jenna,garrett,banksmarcus@example.org,7956547523,both,San Francisco,,11/27/2025,True
+288,MICHAEL,POPE,wadewarren@example.org,(737) 187-5497,SELLER,Fresno,,12/06/2023,1
+289,Michael,Rowe,,(237) 097-9063,Both,San Francisco,"$4,129,259.51",12-11-2023,false
+290,mitchell,mendoza,bradleyharris@example.com,,BUYER,sf,,07-03-2024,True
+291,robert,miller,ajones@example.net,6976486045,seller,fresno,,12/08/2023,0
+292,jill,best,cheryl54@example.com,5368979328,renter,FRESNO,,2025-10-16,True
+293,Glen,Diaz,deckercrystal@example.org,(289) 174-4078,BOTH,Bakersfield,,2025-09-19,1
+294,erik,thompson,joshua96@example.net,,renter,Sacramento,3748571.97,07/13/2025,True
+295,marisa,williams,bradleysteven@example.net,,BUYER,sf,922971.41,10-07-2025,false
+296,KRISTINA,ESPINOZA,amiranda@example.com,087.413.8804,SELLER,los angeles,1773530.25,16-06-2025,0
+297,russell,wade,myersmaxwell@example.net,+1-590-736-3171,seller,LONG BEACH,1082871.12,19-01-2025,0
+298,victoria,glenn,shannon17@example.org,290-610-5680,Seller,BAKERSFIELD,1804918.51,08/07/2023,True
+299,cody,white,brandon00@example.net,,BUYER,los angeles,,10/25/2024,1
+300,thomas,watson,,7673207994,Renter,BAKERSFIELD,,2026-06-23,True
+301,brittany,valdez,kimberly14@example.net,701-683-3660,RENTER,sf,"$466,606.03",2024-07-10,true
+302,johnny,anderson,kcrawford@example.net,0368084290,SELLER,SACRAMENTO,,2023-10-06,1
+303,larry,miller,coryharrison@example.com,643.176.7836,Buyer,fresno,"$3,354,431.58",08-10-2023,1
+304,Kimberly,Davis,janet70@example.org,9505837924,both,Los Angeles,369414.08,2024-04-10,False
+305,SAMUEL,LUNA,kristie55@example.net,684.314.4984,Renter,la,4177981.38,04/01/2025,True
+306,OSCAR,ANDERSON,lopezabigail@example.net,398.206.1912,both,Los Angeles,"$3,190,046.80",27-10-2025,false
+307,william,moore,valerie43@example.org,430.594.6283,Buyer,San Jose,,03/04/2025,0
+308,JOSHUA,ELLIOTT,arielgeorge@example.net,3248499360,Buyer,San Diego,2189651.58,10-01-2025,true
+309,Deborah,Jarvis,chamberslinda@example.net,251.584.2435,Renter,SAN DIEGO,"$3,421,579",07-01-2024,1
+310,cindy,wright,shannon79@example.net,378-683-8297,Both,la,619769.07,2023-09-12,True
+311,aimee,hayes,rmorgan@example.net,7581794937,both,OAKLAND,"$1,877,846",20-02-2024,True
+312,Amy,Harrison,danielle63@example.com,+1-271-449-2262,buyer,LOS ANGELES,2978553.74,02/28/2025,0
+313,DAVID,MUELLER,hpowers@example.com,669.993.9453,Buyer,sacramento,4307749.71,2023-12-15,false
+314,JANICE,YANG,kfoster@example.org,215.086.8901,SELLER,la,3942227.4,04/13/2025,false
+315,JASON,MCDANIEL,teresa85@example.com,500-327-9890,RENTER,Anaheim,3567430.41,2024-01-01,True
+316,NICOLE,ALLEN,,,both,oakland,1540760.65,2026-05-13,True
+317,melanie,trevino,,996-967-4124,seller,los angeles,,2025-09-17,True
+318,robert,lee,hoffmanjared@example.org,(232) 916-3366,renter,SACRAMENTO,"$3,618,923.13",2024-08-16,True
+319,melinda,adkins,david87@example.net,2275135429,Buyer,Fresno,4432222.11,2024-03-15,0
+320,KAREN,DAVIDSON,villanuevazachary@example.net,941.918.8197,Buyer,BAKERSFIELD,"$886,095.33",04/21/2025,1
+321,JUSTIN,MOORE,csaunders@example.com,527.670.2178,both,San Francisco,"$3,229,144",07-07-2023,1
+322,lacey,kelly,dylan07@example.com,,seller,LONG BEACH,4838028.46,26-03-2024,1
+323,katherine,gardner,nortonashley@example.net,692.755.3983,BOTH,San Francisco,"$3,601,876",2024-08-01,False
+324,jeffery,diaz,john55@example.net,9709516152,both,Los Angeles,"$3,986,205.84",10-04-2025,True
+325,Sue,Collins,smithjason@example.net,8607161167,RENTER,SAN FRANCISCO,,01/07/2024,1
+326,Tracy,Sweeney,qwilson@example.net,(157) 374-0074,buyer,Long Beach,1817032.81,2025-02-18,True
+327,robin,robertson,leachjuan@example.com,(704) 547-8447,BOTH,San Francisco,2412369.45,28-01-2026,True
+328,Eric,Fuller,mturner@example.org,1981974634,seller,Long Beach,,26-03-2024,False
+329,Billy,Osborn,barbara63@example.com,,seller,San Jose,"$2,555,334",10/10/2023,0
+330,susan,garcia,brittney11@example.net,985.957.8523,Buyer,long beach,"$4,014,877",21-03-2025,false
+331,William,Parker,hilljason@example.com,0769288635,Both,FRESNO,,2024-02-02,true
+332,roy,ryan,fgarrett@example.org,(193) 556-2240,renter,SAN FRANCISCO,"$4,591,593.04",18-11-2024,true
+333,Jillian,Haynes,chawkins@example.net,867-875-5397,SELLER,Los Angeles,"$3,718,673.86",2024-12-14,0
+334,brittany,vega,jessica10@example.net,+1-662-028-3878,Buyer,San Francisco,1132031.86,09/28/2023,True
+335,cheyenne,henderson,joshuahess@example.org,,Buyer,San Diego,186630.05,05/21/2026,1
+336,JAMES,BREWER,uhayes@example.org,+1-952-600-8298,BOTH,san jose,,03/02/2025,False
+337,BRANDON,BELL,sgarcia@example.org,074-059-1658,Both,ANAHEIM,,21-09-2025,True
+338,NATALIE,ROBBINS,batesjohn@example.net,3911503967,RENTER,SAN FRANCISCO,1341151.76,12-09-2024,false
+339,monica,harris,hernandezwendy@example.net,2094843249,renter,Anaheim,2057544.34,08/22/2024,1
+340,Daniel,Whitaker,paulmcbride@example.org,045.298.5401,seller,Oakland,"$2,243,611.67",06-04-2025,false
+341,DYLAN,HARRISON,reyesconnie@example.com,085.036.1350,BUYER,Fresno,,19-04-2026,false
+342,Marco,Gregory,evansjohn@example.net,+1-247-114-7450,Buyer,la,"$938,301",03-06-2026,1
+343,REBECCA,COX,amandawalsh@example.com,+1-092-808-2082,both,Anaheim,"$4,233,333",08/10/2024,False
+344,Daniel,Bass,dylanmalone@example.org,+1-980-846-3975,Buyer,BAKERSFIELD,"$188,256",2023-12-25,True
+345,nicholas,turner,alexanderkelly@example.com,,both,oakland,,05/26/2026,False
+346,CHRISTINE,PEARSON,njohnson@example.com,7447142508,RENTER,oakland,4306883.48,2025-01-16,true
+347,VICTORIA,HERNANDEZ,,(433) 841-8760,buyer,Sacramento,"$1,170,727.96",20-07-2024,False
+348,michelle,mercado,paulbrown@example.net,(474) 960-7114,buyer,Oakland,"$4,225,686.04",2024-02-27,0
+349,jonathan,wheeler,xpeters@example.net,518.235.4783,Buyer,SAN JOSE,2836311.15,28-05-2026,True
+350,joshua,gutierrez,victoria32@example.org,+1-991-964-9382,BUYER,Bakersfield,"$3,288,743",02-08-2025,True
+351,THOMAS,LEE,christopher22@example.org,+1-562-031-7386,SELLER,ANAHEIM,"$2,457,234",2023-07-28,1
+352,chad,clayton,pbates@example.org,,SELLER,Anaheim,3066720.52,2024-04-09,true
+353,SARAH,PEREZ,rcarroll@example.net,,Seller,Fresno,"$4,167,652",2025-04-09,True
+354,SHARON,GREEN,jacksonashley@example.org,+1-783-963-1885,Renter,san francisco,,18-06-2026,True
+355,tyler,barnes,smiller@example.net,+1-533-624-5514,both,Los Angeles,4326065.17,2025-02-26,True
+356,Lauren,Hickman,tracylee@example.org,046.717.8757,Seller,FRESNO,4142393.62,2023-10-27,0
+357,andrew,riley,vjohnson@example.com,(342) 985-8785,renter,San Jose,"$663,668.94",15-12-2024,true
+358,LISA,GORDON,michael02@example.com,+1-306-023-3155,Seller,SAN FRANCISCO,3171290.21,06/25/2026,true
+359,STEPHANIE,BALDWIN,danielfleming@example.com,(844) 047-9079,SELLER,SF,2425550.28,12/31/2025,True
+360,sean,graham,yutimothy@example.net,+1-777-409-6999,SELLER,san francisco,"$1,735,483.63",03-04-2025,true
+361,Jasmine,Bates,rortiz@example.net,,Both,Long Beach,3947854.48,11/05/2024,1
+362,Jennifer,Underwood,coltonmason@example.net,068-001-9409,Both,San Diego,"$3,917,506.56",2026-01-16,True
+363,patricia,rogers,timothy71@example.com,+1-631-532-8924,renter,LOS ANGELES,1265120.03,2025-05-19,False
+364,lori,price,branchmary@example.com,(824) 751-0106,Seller,fresno,"$1,521,471",2024-05-08,True
+365,matthew,mack,oschneider@example.net,+1-209-436-9615,both,Long Beach,"$3,364,426.03",2025-08-27,1
+366,debra,spencer,omartinez@example.org,,SELLER,los angeles,"$2,856,991.90",11-01-2025,True
+367,robert,callahan,wallacechase@example.net,4019541027,seller,fresno,2374479.12,10/08/2024,False
+368,Martha,Arnold,jasonblanchard@example.net,983.902.9087,BOTH,sacramento,"$538,995",24-12-2023,True
+369,sharon,knight,sara41@example.org,174-457-3440,Seller,San Diego,,19-09-2023,False
+370,MELINDA,WRIGHT,pamelacarlson@example.com,+1-824-173-1350,SELLER,sacramento,2805033.22,2025-01-04,False
+371,deanna,hunter,hwoodward@example.net,9654151455,Seller,BAKERSFIELD,,2023-07-03,1
+372,ALEXANDER,LEWIS,lisavincent@example.com,(209) 794-2035,renter,SAN FRANCISCO,"$4,184,977",02/18/2026,False
+373,Tina,Dixon,riversalexis@example.net,4283164418,Renter,sacramento,"$3,765,294",2025-04-08,True
+374,james,weber,melissa08@example.com,899-100-3245,SELLER,Los Angeles,"$2,335,951.58",28-04-2026,False
+375,JULIA,HENRY,staylor@example.net,7316801819,Buyer,Los Angeles,4905703.78,15-11-2024,True
+376,Anna,Mendez,eric44@example.com,(053) 106-0338,Both,Fresno,"$2,668,661",10-05-2026,False
+377,steven,crawford,diazandrew@example.org,8431286960,SELLER,OAKLAND,"$2,990,498",2025-01-23,True
+378,eric,griffith,nicolewhite@example.org,(408) 878-2643,Buyer,Sacramento,"$2,899,955.66",17-05-2026,True
+379,MICHAELA,CASTRO,jenniferbrooks@example.net,+1-641-219-4761,SELLER,Anaheim,"$4,711,334.82",10/16/2025,0
+380,edward,webb,brownbrittany@example.org,9925548214,Buyer,san francisco,,2024-12-25,0
+381,mary,neal,watkinsjasmine@example.com,453.121.4465,buyer,Fresno,"$823,282",04/07/2024,True
+382,NATALIE,BONILLA,cwilson@example.org,(287) 339-0421,Buyer,LONG BEACH,4145687.91,2025-05-31,false
+383,brenda,gonzalez,christina29@example.com,+1-908-873-5581,Buyer,oakland,4765872.59,2024-11-23,True
+384,Amanda,Alexander,torresdavid@example.org,3519833775,Both,la,,2026-06-21,true
+385,jose,robinson,belindafoley@example.org,533.243.5907,buyer,LOS ANGELES,"$3,633,376",2024-05-28,0
+386,ann,brady,andrewmcdowell@example.com,,Both,FRESNO,"$4,508,530.52",27-12-2025,True
+387,jacqueline,lewis,ycarroll@example.com,169.340.4237,both,Long Beach,"$2,175,292",2023-07-29,true
+388,William,Olson,bryan54@example.com,,BOTH,long beach,3034179.24,23-12-2024,true
+389,MARIA,SCOTT,ylane@example.net,(051) 123-1343,BUYER,long beach,,2025-07-28,true
+390,PETER,BUCHANAN,justingomez@example.net,(812) 033-0787,RENTER,anaheim,"$1,914,716",2023-10-07,0
+391,Michael,Wright,charleshughes@example.net,+1-451-285-5011,RENTER,fresno,"$3,004,246.32",2024-03-25,true
+392,amanda,krueger,stevensjames@example.org,863.017.6149,RENTER,Long Beach,"$461,228",09/26/2025,False
+393,brian,hurley,daniellemartinez@example.org,(031) 837-5162,seller,sf,,04/01/2025,false
+394,Karen,Cunningham,candace19@example.net,,Buyer,FRESNO,"$3,670,942.51",2025-04-30,false
+395,joseph,lewis,nancy46@example.com,7945912175,BUYER,sf,,02/11/2025,True
+396,john,robinson,nicole67@example.com,673-653-2902,renter,oakland,,2024-07-12,0
+397,Savannah,Harmon,kennethpalmer@example.com,(848) 616-9205,RENTER,SF,2709890.82,29-11-2025,false
+398,SONIA,MARTINEZ,david35@example.net,579-616-9380,Renter,BAKERSFIELD,3549286.53,11/12/2024,True
+399,Brandon,Morrison,vaughnelizabeth@example.org,193-069-5473,renter,sacramento,"$3,144,855.07",2026-06-29,True
+400,Wayne,Ferguson,,+1-868-747-8310,RENTER,San Jose,"$1,700,859.71",2025-01-15,True
+8056,MADISON,WHITE,,+1-771-448-2791,BOTH,LOS ANGELES,3536248.52,02/26/2024,true
+8014,Matthew,Ballard,graykevin@example.net,226.485.2862,seller,la,,13-02-2024,0
+8033,mario,bowers,mmoore@example.net,501.478.4512,Buyer,san diego,"$499,171",04/17/2025,true
+8030,CHELSEA,HERNANDEZ,cantuchase@example.net,+1-218-452-8451,Buyer,san francisco,"$2,498,172.09",2024-12-28,0
+8045,JODY,ROBERTS,luke88@example.net,,RENTER,OAKLAND,4517720.71,11/21/2025,True
+8008,tabitha,smith,brian33@example.org,+1-150-666-2682,Renter,LOS ANGELES,4091755.75,08/20/2024,true
+8089,Nathan,Alvarez,riverajeffrey@example.com,007-158-0566,Seller,Long Beach,,09-09-2023,0
+8027,MICHELLE,HOFFMAN,anelson@example.com,+1-469-933-2631,SELLER,SAN JOSE,2613506.71,06/01/2025,0
+8051,Nicole,Mcguire,tylerblevins@example.org,2240083927,RENTER,la,"$909,362",13-10-2024,true
+8089,JACOB,LOPEZ,leahcarroll@example.org,+1-743-745-4455,Both,san jose,154071.07,11/18/2023,True
+8085,eric,brown,,9338018438,seller,SACRAMENTO,2880975.6,06/10/2025,true
+8048,william,bell,dominguezsavannah@example.com,934-958-7974,renter,San Francisco,,2023-11-06,True
+8085,jason,brown,taylor05@example.com,,Both,Los Angeles,3715241.63,26-02-2025,false
+8034,Alexa,Acevedo,denisecooper@example.org,(467) 229-1128,Both,SAN DIEGO,"$3,160,260.97",07-10-2025,false
+8098,jasmine,carter,,(938) 196-5796,RENTER,sf,4794490.87,08-02-2024,0
+8022,sean,patrick,robert04@example.com,426.975.9666,RENTER,fresno,"$2,254,084.08",04/12/2024,true
+8061,Alexa,Acevedo,denisecooper@example.org,(467) 229-1128,Both,SAN DIEGO,"$3,160,260.97",07-10-2025,false
+8045,Lonnie,Howell,prasmussen@example.org,123-533-7207,renter,BAKERSFIELD,1253500.73,22-08-2025,False
+8018,JAMES,WILLIAMS,annamorris@example.org,(478) 426-2982,RENTER,san diego,"$2,160,809",06-06-2025,0
+8009,dawn,lopez,suttonmichael@example.net,383-323-6771,seller,SAN FRANCISCO,428250.77,2026-03-16,1

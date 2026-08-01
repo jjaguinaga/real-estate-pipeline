@@ -1,9 +1,0 @@
-agent_id,first_name,last_name,email,phone,license_number,specialization,city,hire_date,is_active
-7,Michaela,Morris,tara78@example.com,+1-886-468-4141,,residential,Long Beach,2025-08-21,True
-14,mark,terry,hicksryan@example.org,(907) 196-0100,,both,san francisco,26-03-2021,true
-26,andrew,mora,akim@example.net,011.743.5543,,Luxury,Sacramento,16-05-2023,True
-39,BRENDA,PEREZ,debrataylor@example.net,+1-615-673-8628,,Luxury,Anaheim,2017-12-09,false
-46,JOSEPH,JENSEN,denise59@example.net,(456) 279-1592,,commercial,SAN JOSE,2026-02-23,1
-47,BEVERLY,JOHNSON,zguerra@example.org,041-445-4452,,Residential,ANAHEIM,28-07-2021,True
-9051,mark,terry,hicksryan@example.org,(907) 196-0100,,both,san francisco,26-03-2021,true
-9026,Michaela,Morris,tara78@example.com,+1-886-468-4141,,residential,Long Beach,2025-08-21,True

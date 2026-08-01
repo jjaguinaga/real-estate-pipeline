@@ -12,7 +12,14 @@ class DataTransformer:
       
       self.quarantine_dfs = []
       
+      self._clear_quarantine()
       
+   def _clear_quarantine(self):
+      for file in settings.QUARANTINE_PATH.glob('quarantine_*.csv'):
+         file.unlink()
+      
+      self.logger.info('Cleared old quarantine files')
+     
    def _save_quarantine(self, df, name):
       timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
       
@@ -74,6 +81,15 @@ class DataTransformer:
       
       df = df[~bad_license].copy()
       
+      df['agent_id'] = pd.to_numeric(df['agent_id'], errors='coerce')
+      
+      bad_ids = df['agent_id'].isna()
+      
+      if bad_ids.any():
+         self._save_quarantine(df[bad_ids], 'agents_bad_id')
+      
+      df = df[~bad_ids].copy()
+      
       df['agent_id'] = df['agent_id'].astype(int)
          
       df['first_name'] = df['first_name'].str.strip().str.title()
@@ -105,3 +121,61 @@ class DataTransformer:
       
       return df 
 
+   def transform_clients(self, df):
+      self.logger.info(f'Transforming clients...')
+      
+      df['budget'] = df['budget'].replace(r'[^\d.]', '', regex=True).astype(float)
+      
+      bad_budget = df['budget'].isna()
+      
+      if bad_budget.any():
+         self._save_quarantine(df[bad_budget], 'clients_null_budget')
+         
+      df = df[~bad_budget].copy()
+      
+      negative_budget = df['budget'] <= 0
+      
+      if negative_budget.any():
+         self._save_quarantine(df[negative_budget], 'clients_invalid_budget')
+         
+      df = df[~negative_budget].copy()
+      
+      df['client_id'] = pd.to_numeric(df['client_id'], errors='coerce')
+            
+      bad_ids = df['client_id'].isna()
+      
+      if bad_ids.any():
+         self._save_quarantine(df[bad_ids], 'clients_bad_id')
+      
+      df = df[~bad_ids].copy()
+      
+      df['client_id'] = df['client_id'].astype(int)
+         
+      df['first_name'] = df['first_name'].str.strip().str.title()
+      
+      df['last_name'] = df['last_name'].str.strip().str.title()
+      
+      df['email'] = df['email'].fillna(df['first_name'].str[:1].str.lower() + df['last_name'].str.lower() + '@example.com').str.lower()
+      
+      df['phone'] = df['phone'].apply(self._normalize_phone)
+      
+      df['client_type'] = df['client_type'].str.lower()
+      
+      df['preferred_city'] = df['preferred_city'].str.title().replace({'Sf': 'San Francisco', 'La': 'Los Angeles'})
+      
+      df['signup_date'] = pd.to_datetime(df['signup_date'], format='mixed', errors='coerce')
+      
+      df['is_active'] = df['is_active'].apply(self._parse_boolean)
+      
+      before = len(df)
+      
+      df = df.drop_duplicates(subset=['client_id'])
+      
+      if len(df) < before:
+         self.logger.warning(f'Removed {before - len(df)} duplicate client_ids')
+         
+      self.logger.info(f'Clients transformed: {len(df)} rows')
+      
+      return df 
+      
+   

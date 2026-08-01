@@ -178,4 +178,82 @@ class DataTransformer:
       
       return df 
       
+   def transform_properties(self, df, valid_agent_ids: set):
+      self.logger.info(f'Transforming properties...')
+      
+      df['property_id'] = pd.to_numeric(df['property_id'], errors='coerce')
+      
+      bad_ids = df['property_id'].isna()
+      
+      if bad_ids.any():
+         self._save_quarantine(df[bad_ids], 'properties_bad_id')
+      
+      df = df[~bad_ids].copy()
+      
+      df['agent_id'] = pd.to_numeric(df['agent_id'], errors='coerce')
+      
+      bad_agent_ids = df['agent_id'].isna()
+      
+      if bad_agent_ids.any():
+         self._save_quarantine(df[bad_agent_ids], 'properties_bad_agent_id')
+         
+      df = df[~bad_agent_ids].copy()
+      
+      before = len(df)
+      
+      df = df[df['agent_id'].isin(valid_agent_ids)].copy()
+      
+      if len(df) < before:
+         self.logger.warning(f'Removed {before - len(df)} orphan properties')
+         
+      df = df.drop(columns=['bedrooms', 'bathrooms'], errors='ignore')
+      
+      bad_address = df['address'].isna()
+      
+      if bad_address.any():
+         self._save_quarantine(df[bad_address], 'properties_null_address')
+         
+      df = df[~bad_address].copy()
+      
+      bad_sqft = df['sqft'].isna()
+      
+      if bad_sqft.any():
+         self._save_quarantine(df[bad_sqft], 'properties_null_sqft')
+         
+      df = df[~bad_sqft].copy()
+      
+      df['year_built'] = pd.to_numeric(df['year_built'], errors='coerce').fillna(0).astype(int)
+      
+      df['city'] = df['city'].str.title().replace({'Sf': 'San Francisco', 'La': 'Los Angeles'})
+      
+      df['property_type'] = df['property_type'].str.lower().replace({
+         'condo': 'condominium', 
+         'single-family': 'single family', 
+         'town house': 'townhome', 
+         'townhouse': 'townhome', 
+         'multi-family': 'multi family'})
+      
+      df['sqft'] = df['sqft'].replace(r'[^\d]', '', regex=True).astype(int)
+      
+      df['listing_type'] = df['listing_type'].str.lower().replace({
+         'for sale': 'sale', 
+         'rental': 'rent', 
+         'for rent': 'rent'})
+      
+      df['price'] = df['price'].replace(r'[^\d.]', '', regex=True).astype(float)
+      
+      df['listed_date'] = pd.to_datetime(df['listed_date'], format='mixed', errors='coerce')
+      
+      df['is_available'] = df['is_available'].apply(self._parse_boolean)
+      
+      before = len(df)
+      
+      df = df.drop_duplicates(subset=['property_id'])
+      
+      if len(df) < before:
+         self.logger.warning(f'Removed {before - len(df)} duplicate property_ids') 
+         
+      self.logger.info(f'Properties transformed: {len(df)} rows')
+      
+      return df 
    

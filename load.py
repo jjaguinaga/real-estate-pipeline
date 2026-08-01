@@ -1,6 +1,6 @@
 import pandas as pd
 import psycopg2
-from transform import clean_clients, clean_agents, clean_properties, clean_transactions
+from transform1 import clean_clients, clean_agents, clean_properties, clean_transactions
 
 def load_data():
    agents = clean_agents()

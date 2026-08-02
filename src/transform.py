@@ -257,3 +257,109 @@ class DataTransformer:
       
       return df 
    
+   def transform_transactions(self, df, valid_property_ids: set, valid_agent_ids: set, valid_client_ids: set):
+      self.logger.info(f'Transforming transactions...')
+      
+      df['transaction_id'] = pd.to_numeric(df['transaction_id'], errors='coerce')
+      
+      bad_ids = df['transaction_id'].isna()
+      
+      if bad_ids.any():
+         self._save_quarantine(df[bad_ids], 'transactions_bad_id')
+         
+      df = df[~bad_ids].copy()
+      
+      df['property_id'] = pd.to_numeric(df['property_id'], errors='coerce')
+      
+      bad_pid = df['property_id'].isna()
+      
+      if bad_pid.any():
+         self._save_quarantine(df[bad_pid], 'transactions_bad_property_id')
+         
+      df = df[~bad_pid].copy()
+      
+      before = len(df)
+      
+      df = df[df['property_id'].isin(valid_property_ids)].copy()
+      
+      if len(df) < before:
+         self.logger.warning(f'Removed {before - len(df)} orphan transactions')
+         
+      df['agent_id'] = pd.to_numeric(df['agent_id'], errors='coerce')
+      
+      bad_aid = df['agent_id'].isna()
+      
+      if bad_aid.any():
+         self._save_quarantine(df[bad_aid], 'transactions_bad_agent_id')
+         
+      df = df[~bad_aid].copy()
+      
+      before = len(df)
+      
+      df = df[df['agent_id'].isin(valid_agent_ids)].copy()
+      
+      if len(df) < before:
+         self.logger.warning(f'Removed {before - len(df)} orphan transactions')
+         
+      df['client_id'] = pd.to_numeric(df['client_id'], errors='coerce')
+      
+      bad_cid = df['client_id'].isna()
+      
+      if bad_cid.any():
+         self._save_quarantine(df[bad_cid], 'transactions_bad_client_id')
+         
+      df = df[~bad_cid].copy()
+      
+      before = len(df)
+      
+      df = df[df['client_id'].isin(valid_client_ids)].copy()
+      
+      if len(df) < before:
+         self.logger.warning(f'Removed {before - len(df)} orphan transactions')
+         
+      df = df.drop(columns=['days_on_market'], errors='ignore')
+      
+      for col in ['list_price', 'sale_price', 'commission_earned']:
+         df[col] = df[col].replace(r'[^\d.]', '', regex=True).astype(float)
+      
+      before = len(df)
+      
+      negative_commission = df['commission_earned'] <= 0
+      
+      if negative_commission.any():
+         self._save_quarantine(df[negative_commission], 'transactions_invalid_commission')
+         
+      df = df[~negative_commission].copy()
+      
+      if len(df) < before:
+         self.logger.warning(f'Removed {before - len(df)} invalid commissions')
+         
+      before = len(df)
+      
+      excess_commission = df['commission_earned'] > df['sale_price']
+      
+      if excess_commission.any():
+         self._save_quarantine(df[excess_commission], 'transactions_excess_commission')
+         
+      df = df[~excess_commission].copy()
+      
+      if len(df) < before:
+         self.logger.warning(f'Removed {before - len(df)} excess commissions')
+         
+      df['transaction_type'] = df['transaction_type'].str.lower().replace({'lease': 'rental', 'purchase': 'sale'})
+      
+      df['status'] = df['status'].str.lower().replace({'close': 'closed', 'active': 'pending', 'canceled': 'cancelled', 'withdrawn': 'cancelled'})
+      
+      df['close_date'] = pd.to_datetime(df['close_date'], format='mixed', errors='coerce')
+      
+      before = len(df)
+      
+      df = df.drop_duplicates(subset=['transaction_id'])
+      
+      if len(df) < before:
+         self.logger.warning(f'Removed {before - len(df)} duplicate transaction_ids')
+         
+      self.logger.info(f'Transactions transformed: {len(df)} rows')
+         
+      return df 
+   

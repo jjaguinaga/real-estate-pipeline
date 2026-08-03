@@ -60,14 +60,25 @@ class DataLoader:
    def _swap_tables(self, staging_name, final_name):
       backup = f'{final_name}_old'
       
-      self.cur.execute(f'DROP TABLE IF EXISTS {backup};')
+      self.cur.execute('''
+                       SELECT EXISTS (
+                          SELECT FROM information_schema.tables
+                          WHERE table_name = %s);''',
+                        (final_name,)
+                       )
       
-      self.cur.execute(f'ALTER TABLE {final_name} RENAME TO {backup};')
+      exists = self.cur.fetchone()[0]
       
+      if exists:
+         self.cur.execute(f'DROP TABLE IF EXISTS {backup};')
+         
+         self.cur.execute(f'ALTER TABLE {final_name} RENAME TO {backup};')
+          
       self.cur.execute(f'ALTER TABLE {staging_name} RENAME TO {final_name};')
       
-      self.cur.execute(f'DROP TABLE {backup};')
-      
+      if exists:
+         self.cur.execute(f'DROP TABLE {backup};')
+          
       self.logger.info(f'Swapped {staging_name} to {final_name}')
       
    def _add_indexes(self, table_name, indexes):

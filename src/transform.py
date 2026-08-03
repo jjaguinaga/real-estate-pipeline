@@ -321,6 +321,27 @@ class DataTransformer:
       
       for col in ['list_price', 'sale_price', 'commission_earned']:
          df[col] = df[col].replace(r'[^\d.]', '', regex=True).astype(float)
+         
+      null_commission = df['commission_earned'].isna()
+      
+      if null_commission.any():
+         self._save_quarantine(df[null_commission], 'transactions_null_commission')
+         
+      df = df[~null_commission].copy()
+      
+      null_sale = df['sale_price'].isna()
+      
+      if null_sale.any():
+         self._save_quarantine(df[null_sale], 'transactions_null_sale')
+         
+      df = df[~null_sale].copy()
+      
+      null_list = df['list_price'].isna()
+      
+      if null_list.any():
+         self._save_quarantine(df[null_list], 'transactions_null_list')
+         
+      df = df[~null_list].copy()
       
       before = len(df)
       

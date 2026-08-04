@@ -1,92 +1,136 @@
-# ETL Real Estate Pipeline with SQL Analytics
+# ETL Real Estate Pipeline
 
 ---
 
-## Motivation 
+## Overview
 
-This project was built to help a real estate agency answer questions about their agents, sales and revenue. This project uses csv files to build a database and relational tables, then uses SQL to answer those questions.
-
----
-
-## What this Project Does
-
-This pipeline extracts data from four csv files consisting of agents, clients, properties and transactions. It stores it all in a relational database and produces SQL views that allow analysts to explore findings. 
+This pipeline extracts data from four CSV files, transforms it, and loads it into PostgreSQL. This ETL pipeline validates rows that are empty and moves bad rows to quarantine files for later inspection, and uses Docker for one-command execution. This was made for a real estate agency analyst. 
 
 ---
 
-## Key Findings 
-
-**Which cities had the most listings** The 'city_listing_rank' view shows us that San Francisco has the most listings with 36 as a combination of rental and sale.
-
-
-**Percentage of closed listings** the 'status_percents' view shows us that only 24% of the listings are closed, 36% are cancelled and 38% are pending. 
-
-
-**Which agents are top performers** the 'top_closing_agents' view shows us that Madison Ortiz has closed on 5 properties making her the top agent. 
-
-
-**How much commission was made** the 'total_commission' view shows us the total amount of commission that was made in the agency which was over 5.2 million dollars.
-
----
-
-## Architecture 
+## Architecture Diagram
 
 ```
-CSV Files (faker-generated synthetic data)
+CSV Files 
 ↓
-transform.py → Pandas (data cleaning and validation)
+Extract → Raw DF
 ↓
-load.py → PostgreSQL (relational database with 5 tables)
+Transform → Clean DF → Quarantine (bad rows)
 ↓
-analytics.sql → SQL views (business insights)
+Load → Staging
+↓
+PostgreSQL
 ```
 
 ---
 
-## Tech Stack
+## Tech Stack 
 
-| Tool | Purpose |
-|---|---|
-| Python | Core pipeline logic |
-| Pandas | Data cleaning and transformation |
-| PostgreSQL | Relational database |
-| Psycopg2 | PostgreSQL connection |
-| SQL | Analytics views |
-| Git | Version control |
+| tools | Purpose | Version |
+|---|---|---|
+| Python | Core logic | 3.11 |
+| Pandas | Data manipulation | 2.2.3 |
+| PostgreSQL | Database | 15 |
+| psycopg2-binary | PostgreSQL driver | 2.9.12 |
+| pytest | Testing | 9.1.1 |
+| Docker | Containerization | 29.x |
+| Docker Compose | Multi-container orchestration | 5.x |
 
----
+--- 
 
 ## Project Structure 
 
 ```
 real-estate-pipeline/
-├── raw-data
-      ├── raw_agents.csv
-      ├── raw_clients.csv
-      ├── raw_properties.csv
-      └── raw_transactions.csv
-├── transform.py
-├── load.py
-├── analytics.sql
+├── config/
+│   ├── __init__.py
+│   └── settings.py          # Environment-based configuration
+├── src/
+│   ├── __init__.py
+│   ├── extract.py           # Raw data extraction
+│   ├── transform.py         # Data cleaning, validation, quarantine
+│   ├── load.py              # Bulk load with staging tables
+│   └── logger.py            # Structured logging
+├── tests/
+│   ├── __init__.py
+│   └── test_transform.py    # pytest suite
+├── data/
+│   ├── raw/                 # Source CSVs
+│   ├── processed/           # Cleaned outputs
+│   └── quarantine/          # Bad rows for review
+├── logs/                    # Pipeline execution logs
+├── Dockerfile               # Container definition
+├── docker-compose.yml       # Multi-container orchestration
+├── requirements.txt         # Python dependencies
+├── run_pipeline.py          # Entry point
 └── README.md
 ```
 
 ---
 
+## Key Features
+
+| Feature | Description |
+|---|---|
+| **Environment-based config** | All settings via env vars, no hardcoded credentials |
+| **Structured logging** | Timestamps, severity levels, module names to console + file |
+| **Data validation** | Schema checks, business rules, referential integrity |
+| **Quarantine pattern** | Bad rows saved to CSV with rejection reason |
+| **Bulk loading** | PostgreSQL COPY for 100x performance vs row-by-row |
+| **Staging + atomic swap** | No partial data visible to queries |
+| **Transaction safety** | Full rollback on any failure |
+| **Automated testing** | pytest with parameterized tests |
+| **Docker containerization** | One command runs entire stack |
+
+---
+
 ## How to Run
 
-1. Clone the repo 
-2. Install dependencies:
+### Local Development:
+1. Install dependencies 
 ```bash
-pip install pandas psycopg2-binary
+pip install -r requirements.txt
 ```
-3. Make sure PostgreSQL is running locally
-4. Create the PostgreSQL database:
-```sql
-CREATE DATABASE real_estate;
-```
-5. Run the pipeline:
+2. Set environment variables (or use defaults)
 ```bash
-python3 load.py
+export DB_PASSWORD=your_password
 ```
-6. Open TablePlus or any SQL client, connect to the `real_estate` database, and run the views in `analytics.sql`
+3. Run pipeline
+```bash
+python -m run_pipeline
+```
+
+### Docker (Recommended):
+1. Start PostgreSQL + pipeline 
+```bash
+docker compose up --build
+```
+2. Verify data loaded 
+```bash
+docker compose exec postgres psql -U naga -d real_estate -c "SELECT COUNT(*) FROM agents;"
+```
+
+---
+
+## Testing 
+
+```bash 
+python -m pytest tests/ -v
+```
+
+## Data Quality
+
+| Table | Issue | Count | Action |
+|---|---|---|---|
+| Agents | Null license | 8 | Quarantined | 
+| Clients | Null budget | 89 | Quarantined | 
+| Clients | Duplicate IDs | 2 | Removed | 
+| Properties | Orphan agent_id | 51 | Removed |
+| Properties | Null address | 21 | Quarantined |
+| Properties | Null sqft | 76 | Quarantined |
+| Transactions | Orphan property_id | 231 | Removed |
+| Transactions | Orphan agent_id | 66 | Removed |
+| Transactions | Orphan client_id | 112 | Removed |
+| Transactions | Null commission | 94 | Quarantined |
+
+---

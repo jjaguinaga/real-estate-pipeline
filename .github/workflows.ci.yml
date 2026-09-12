@@ -1,0 +1,75 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_DB: real_estate
+          POSTGRES_USER: naga
+          POSTGRES_PASSWORD: password
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U naga -d real_estate"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run tests
+        env:
+          DB_HOST: localhost
+          DB_PORT: 5432
+          DB_NAME: real_estate
+          DB_USER: naga
+          DB_PASSWORD: password
+        run: |
+          python -m pytest tests/ -v --tb=short
+
+      - name: Test pipeline end-to-end
+        env:
+          DB_HOST: localhost
+          DB_PORT: 5432
+          DB_NAME: real_estate
+          DB_USER: naga
+          DB_PASSWORD: password
+        run: |
+          python run_pipeline.py
+
+      - name: Verify data loaded
+        env:
+          PGPASSWORD: password
+        run: |
+          psql -h localhost -U naga -d real_estate -c "SELECT 'agents' as table, COUNT(*) FROM agents
+          UNION ALL SELECT 'clients', COUNT(*) FROM clients
+          UNION ALL SELECT 'properties', COUNT(*) FROM properties
+          UNION ALL SELECT 'transactions', COUNT(*) FROM transactions;"
+
+      - name: Upload logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-logs
+          path: data/logs/pipeline.log

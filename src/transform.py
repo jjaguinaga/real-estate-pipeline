@@ -48,7 +48,7 @@ class DataTransformer:
             return f'{phone[1:4]}-{phone[4:7]}-{phone[7:]}'
          
          else:
-            self.logger.warning(f'Invalid phone format: {phone}')
+            self.logger.warning('Invalid phone format: %r', phone)
             
             return f'INVALID:{phone}'
             
@@ -65,7 +65,8 @@ class DataTransformer:
          result = mapping.get(str(value).lower().strip())
          
          if result is None:
-            self.logger.warning(f'Invalid boolean value: {value}')
+            self.logger.warning('Invalid boolean value: %r', value)              
+
             
          return result 
       

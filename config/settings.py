@@ -42,6 +42,3 @@ class Settings:
 settings = Settings()
 
 settings.ensure_directories()
-
-print(settings.database_url)
-

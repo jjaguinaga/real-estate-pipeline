@@ -1,5 +1,7 @@
 # ETL Real Estate Pipeline
+
 [![CI](https://github.com/jjaguinaga/real-estate-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/jjaguinaga/real-estate-pipeline/actions/workflows/ci.yml)
+
 ---
 
 ## Overview
